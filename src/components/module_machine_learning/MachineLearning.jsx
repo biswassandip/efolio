@@ -3,6 +3,7 @@ import React from 'react'
 import { IoMdArrowRoundForward } from 'react-icons/io'
 import { BsFileEarmarkPdfFill } from 'react-icons/bs'
 import { GiDiscussion } from 'react-icons/gi'
+import { VscServerProcess } from 'react-icons/vsc'
 
 import ARTEFACT1 from '../../artefacts/AI-Applications.pdf'
 import ARTEFACT2 from '../../artefacts/AI-Solution.pdf'
@@ -12,9 +13,9 @@ import './mlmodule.css'
 
 const MachineLearning = () => {
   return (
-    <section id='mlmodule'>
+    <section id='mlmodule' className='mlmodule'>
       <h5>How and Why AI</h5>
-      <h2>Module: Machine Learning</h2>
+      <h2><VscServerProcess /> Module: Machine Learning</h2>
 
       
         <div className="container mlmodule__container">

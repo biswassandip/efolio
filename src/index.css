@@ -14,10 +14,10 @@
 :root {
     --color-bg: #B85042;
     --color-bg-variant: #A7BEAE;
-    --color-primary: #fff;
+    --color-primary: #A7BEAE;
     --color-primary-variant: #E7E8D1;
-    --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-white: #A7BEAE;
+    --color-light: #A7BEAE;
 
     --transition: all 400ms ease; 
 
@@ -57,7 +57,7 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
+    margin-top: 0rem;
 }
 
 section > h2, section > h5 {
@@ -95,8 +95,8 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
+    background: transparent;
+    color: var(--color-white);
     border-color: transparenta;
 }
 

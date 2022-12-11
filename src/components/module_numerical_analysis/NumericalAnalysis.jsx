@@ -3,6 +3,7 @@ import React from 'react'
 import { IoMdArrowRoundForward } from 'react-icons/io'
 import { BsFileEarmarkPdfFill } from 'react-icons/bs'
 import { BsFileEarmarkCodeFill } from 'react-icons/bs'
+import { FaSortNumericDown } from 'react-icons/fa'
 
 import ARTEFACT1 from '../../artefacts/statistical_analysis.pdf'
 import ARTEFACT2 from '../../artefacts/statistical_analysis_transcript.pdf'
@@ -14,9 +15,9 @@ import './nmodule.css'
 
 const NumericalAnalysis = () => {
   return (
-    <section id='nmodule'>
+    <section id='nmodule' className='nmodule'>
       <h5>What is the Mathemetics</h5>
-      <h2>Module: Numerical Analysis</h2>
+      <h2><FaSortNumericDown/> Module: Numerical Analysis</h2>
 
       
         <div className="container nmodule__container">

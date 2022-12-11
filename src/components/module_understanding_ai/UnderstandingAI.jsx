@@ -3,6 +3,7 @@ import React from 'react'
 import { IoMdArrowRoundForward } from 'react-icons/io'
 import { BsFileEarmarkPdfFill } from 'react-icons/bs'
 import { GiDiscussion } from 'react-icons/gi'
+import { MdWbIncandescent } from 'react-icons/md'
 
 import ARTEFACT1 from '../../artefacts/AI-Applications.pdf'
 import ARTEFACT2 from '../../artefacts/AI-Solution.pdf'
@@ -12,9 +13,9 @@ import './umodule.css'
 
 const UnderstandingAI = () => {
   return (
-    <section id='umodule'>
+    <section id='umodule' className='umodule'>
       <h5>How and Why AI</h5>
-      <h2>Module: Understanding AI</h2>
+      <h2><MdWbIncandescent/> Module: Understanding AI</h2>
 
       
         <div className="container umodule__container">
@@ -75,7 +76,7 @@ const UnderstandingAI = () => {
           </div>
 
           <div className="umodule__AR">
-            <h3>Artefacts</h3>
+          <h3>Artefacts</h3>
             <div className="umodule__content">
 
               <article className='umodule__details'>

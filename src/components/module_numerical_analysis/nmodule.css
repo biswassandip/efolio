@@ -1,3 +1,9 @@
+.nmodule {
+    background-color: #3A6B35;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
 .nmodule__container {
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
@@ -26,6 +32,10 @@
     text-align: center;
     margin-bottom: 1rem;
     color: var(--color-primary);
+}
+
+.nmodule__container>div a {
+    text-decoration: underline;
 }
 
 .nmodule__content {

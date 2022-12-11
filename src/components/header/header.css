@@ -36,20 +36,6 @@ header {
     background: var(--color-primary);
 }
 
-/* image */
-.me {
-    background: var(--color-primary);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 11rem);
-    margin-top: 4rem;
-    border-radius: 10rem 10rem 0 0;
-    overflow: hidden;
-    padding: 0 1.5rem 1.5rem 1.5rem;
-
-}
-
 /* scroll down */
 .scroll__down {
     position: absolute;
