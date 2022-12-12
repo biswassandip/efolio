@@ -6,6 +6,10 @@ import { AiOutlineTeam } from 'react-icons/ai'
 import { VscServerProcess } from 'react-icons/vsc'
 import { BsFileEarmarkCodeFill } from 'react-icons/bs'
 
+import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im'
+import { GiHypersonicMelon, GiSupersonicBullet } from 'react-icons/gi'
+
+
 
 import ARTEFACT1 from '../../artefacts/Teamwork-Airbnb_Analysis.pdf'
 import ARTEFACT2 from '../../artefacts/airbnb-team-project.ipynb'
@@ -31,8 +35,7 @@ const MachineLearning = () => {
         </center>
         <br/>
 
-        <div className="container mlmodule__container">
-          
+        <div className="container mlmodule__container">    
           <p>
             The Machine Learning module further elaborated on building the concepts around exploring the data and inferring from them. It helped build a strong base to implement Neural Networks and then handle the samples. This module helped in understanding the concepts behind object recognition and its segregation. Going further in providing an understanding of how machines perceive data and how objects can be classified. It also delves into the deeper side of object detection            
           </p>
@@ -122,7 +125,8 @@ const MachineLearning = () => {
                   <h4>Implementing tests and running against samples</h4>
                 </div>
               </article>
-            </div>          
+            </div>  
+            
           </div>
 
           <div className="mlmodule__AR">
@@ -176,10 +180,30 @@ const MachineLearning = () => {
               
             </div>          
           </div>        
-
-          
         </div>
 
+        <div className="container mlmodule__feedback">
+          <div className="mlmodule__F0">
+            <h3>Team Feedbacks</h3>
+            <p><GiHypersonicMelon/> &nbsp;&nbsp;Vasilisa Lukashevich</p>
+            <p>
+              <ImQuotesLeft />
+              <i>
+                &nbsp;&nbsp;Sandip is a solid core for our team, conducting the whole process with responsibility and professional approach. During every step in both projects he proves to be a very strong team leader, an excellent Python user, and an amazing time manager. Last but not least, Sandip is a polite and kind person, so it is an absolute pleasure to work together.&nbsp;&nbsp;                
+              </i>
+              <ImQuotesRight/>
+            </p>
+            <br/><br/>
+            <p><GiSupersonicBullet/> &nbsp;&nbsp;Nithya Kanakavelu</p>
+            <p>
+              <ImQuotesLeft />
+              <i>
+                &nbsp;&nbsp;Sandip lead the team to right direction on both the projects. He made remarkable contribution to the team projects and motivated us throughout. He contributed towards exploratory data analysis and visualization in the initial project and in CNN modelling for final project. I would look forward in working with him in future too.&nbsp;&nbsp;                
+              </i>
+              <ImQuotesRight/>
+            </p>
+          </div>
+        </div>
       </section>
       </div>
   )

@@ -58,7 +58,7 @@ const About = () => {
               Pursuing M. Sc. in Artificial Intelligence (AI), from Univeristy of Essex to set myself in a deep-diving drive for the subject and collaborating knowledge with fellow students, teachers and experts.
             </p>
             <p>            
-              The e-Portfolio will provide information about all works being covered as part of the M. Sc. AI programme and it's projects, artefacts, discussions, notes, etc..
+              The e-Portfolio provides information about all works being covered as part of the M. Sc. AI programme and it's projects, artefacts, discussions, notes and projects.
             </p>
           </div>
         </div>
