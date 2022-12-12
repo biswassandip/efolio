@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/efolio/static/css/main.bb130f32.css",
-    "main.js": "/efolio/static/js/main.96c18a5d.js",
+    "main.css": "/efolio/static/css/main.7ebfff59.css",
+    "main.js": "/efolio/static/js/main.815a7aa5.js",
     "static/media/AI-Solution.pdf": "/efolio/static/media/AI-Solution.df974382138a9f903d7e.pdf",
     "static/media/Teamwork-Summative_Assessment-NeuralNetworks.pdf": "/efolio/static/media/Teamwork-Summative_Assessment-NeuralNetworks.432db7c5b84ff03b942b.pdf",
     "static/media/Teamwork-Airbnb_Analysis.pdf": "/efolio/static/media/Teamwork-Airbnb_Analysis.0bbcc8a96555be5c1fc5.pdf",
@@ -15,11 +15,11 @@
     "static/media/statistical_analysis_transcript.pdf": "/efolio/static/media/statistical_analysis_transcript.81fa3cdfed14c6bf9021.pdf",
     "static/media/statistical_analysis_script.R": "/efolio/static/media/statistical_analysis_script.9dad83764b4320a2ea71.R",
     "index.html": "/efolio/index.html",
-    "main.bb130f32.css.map": "/efolio/static/css/main.bb130f32.css.map",
-    "main.96c18a5d.js.map": "/efolio/static/js/main.96c18a5d.js.map"
+    "main.7ebfff59.css.map": "/efolio/static/css/main.7ebfff59.css.map",
+    "main.815a7aa5.js.map": "/efolio/static/js/main.815a7aa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb130f32.css",
-    "static/js/main.96c18a5d.js"
+    "static/css/main.7ebfff59.css",
+    "static/js/main.815a7aa5.js"
   ]
 }
