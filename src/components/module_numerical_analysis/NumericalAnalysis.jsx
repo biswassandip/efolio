@@ -15,13 +15,29 @@ import './nmodule.css'
 
 const NumericalAnalysis = () => {
   return (
-    <section id='nmodule' className='nmodule'>
-      <h5>What is the Mathemetics</h5>
-      <h2><FaSortNumericDown/> Module: Numerical Analysis</h2>
+    <div id="nmodule">
+      <div className='separator'>
+        <span className="text">
+          <FaSortNumericDown/> Module: Numerical Analysis
+        </span>
+      </div>
 
+    <section id='nmodule' className='nmodule'>
+        <center>
+          <h5>(Module started on June 2022)</h5>
+        </center>
+        <br/>
       
         <div className="container nmodule__container">
-          
+          <p>
+            The mathematics behind all the analytical work is covered within this module. It elaborates about the statistical analysis, the tests and the inferences that can be made and applied to gather information about a population from samples.
+            <br />
+            <br />
+            It builds the basis of Descriptive Statistical Analysis, Inferential Statistics to Regression Analysis. Moreover, the application of chi-, f- or t-tests and how to dtermine the results from sample datasets gets a better understanding for future analytical applications.
+          </p>
+          <p>
+            The understanding was revealed when ran a statistical analysis using the UK alcohol use (2011) dataset. It called for learning R, Python deeper and how these can be run using the RStudio. 
+          </p>
           <div className="nmodule__LO">
             <h3>Learning Outcomes</h3>
             <div className="nmodule__content">
@@ -73,7 +89,7 @@ const NumericalAnalysis = () => {
 
 
           <div className="nmodule__AR">
-            <h3>Artefacts</h3>
+            <h3>Assignments</h3>
             <div className="nmodule__content">
 
               <article className='nmodule__details'>
@@ -118,7 +134,8 @@ const NumericalAnalysis = () => {
           
         </div>
 
-    </section>
+      </section>
+      </div>
   )
 }
 

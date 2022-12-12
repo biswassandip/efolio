@@ -12,12 +12,12 @@
 
 /* css variables throughout the project */
 :root {
-    --color-bg: #B85042;
-    --color-bg-variant: #A7BEAE;
-    --color-primary: #A7BEAE;
+    --color-bg: #141414;
+    --color-bg-variant: #565656;
+    --color-primary: #FBA92C;
     --color-primary-variant: #E7E8D1;
-    --color-white: #A7BEAE;
-    --color-light: #A7BEAE;
+    --color-white: #FFFFFF;
+    --color-light: #9E9E9E;
 
     --transition: all 400ms ease; 
 
@@ -87,7 +87,7 @@ a:hover {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
+    padding: 0.08rem 1rem;
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
@@ -111,6 +111,22 @@ img {
     object-fit: cover;
 }
 
+.separator {
+    width: 100%; 
+    height: 17px; 
+    border-bottom: 1px solid var(--color-bg-variant); 
+    text-align: center;
+}
+
+.text {
+    /* font-size: 40px; */
+    background-color: var(--color-bg);
+    padding: 0 10px;
+    color: var(--color-primary);
+    font-size: 1.5rem;
+}
+
+
 /* tablets media query */
 @media screen and (max-width: 1024px) {
     .container{
@@ -118,7 +134,7 @@ img {
     }
 
     .section {
-        margin-top: 6rem;
+        margin-top: 2rem;
     }
 }
 
@@ -131,4 +147,5 @@ img {
     .section {
         margin-top: 2rem;
     }
+
 }

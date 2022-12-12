@@ -12,10 +12,22 @@ header {
 
 /* CTA */
 .cta {
-    margin-top: 1.5rem;
+    margin-top: 1.2rem;
     display: flex;
-    gap: 1.0rem;
+    gap: 0.5rem;
     justify-content: center;
+}
+
+.cta__icons {
+    margin-top: 1.2rem;
+    display: none;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.cta__icon{
+    width: 20px;
+    height: 20px;
 }
 
 /* socials */
@@ -51,15 +63,31 @@ header {
     header {
         height: 30vh;
     }
+
+    .cta {
+        display: flex;
+    }
+
+    .cta__icons {
+        display: none;
+    }
 }
 
 /* phones media query */
 @media screen and (max-width: 600px) {
     header {
-            height: 35vh;
+            height: 30vh;
     }
 
-    .header__socials, .scroll__down{
+    .header__socials, .scroll__down {
         display: none;
+    }
+
+    .cta{
+        display: none;
+    }
+
+    .cta__icons {
+        display: flex;
     }
 }
