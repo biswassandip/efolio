@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/efolio/static/css/main.7ebfff59.css",
-    "main.js": "/efolio/static/js/main.815a7aa5.js",
+    "main.js": "/efolio/static/js/main.47ec2e81.js",
     "static/media/AI-Solution.pdf": "/efolio/static/media/AI-Solution.df974382138a9f903d7e.pdf",
     "static/media/Teamwork-Summative_Assessment-NeuralNetworks.pdf": "/efolio/static/media/Teamwork-Summative_Assessment-NeuralNetworks.432db7c5b84ff03b942b.pdf",
     "static/media/Teamwork-Airbnb_Analysis.pdf": "/efolio/static/media/Teamwork-Airbnb_Analysis.0bbcc8a96555be5c1fc5.pdf",
@@ -16,10 +16,10 @@
     "static/media/statistical_analysis_script.R": "/efolio/static/media/statistical_analysis_script.9dad83764b4320a2ea71.R",
     "index.html": "/efolio/index.html",
     "main.7ebfff59.css.map": "/efolio/static/css/main.7ebfff59.css.map",
-    "main.815a7aa5.js.map": "/efolio/static/js/main.815a7aa5.js.map"
+    "main.47ec2e81.js.map": "/efolio/static/js/main.47ec2e81.js.map"
   },
   "entrypoints": [
     "static/css/main.7ebfff59.css",
-    "static/js/main.815a7aa5.js"
+    "static/js/main.47ec2e81.js"
   ]
 }
