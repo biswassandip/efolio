@@ -96,7 +96,7 @@ const NumericalAnalysis = () => {
                 <BsFileEarmarkPdfFill className='nmodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT1} download>Statistical Analysis on UK Alcohol Use (2011)</a>
+                      <a href={ARTEFACT1} target='_blank' rel='noopener noreferrer'>Statistical Analysis on UK Alcohol Use (2011)</a>
                   </h4>
                 </div>
               </article>
@@ -105,7 +105,7 @@ const NumericalAnalysis = () => {
                 <BsFileEarmarkPdfFill className='nmodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT2} download>Supporting transcript for the Analysis</a>
+                      <a href={ARTEFACT2} target='_blank' rel='noopener noreferrer'>Supporting transcript for the Analysis</a>
                   </h4>
                 </div>
               </article>
@@ -114,7 +114,7 @@ const NumericalAnalysis = () => {
                 <BsFileEarmarkCodeFill className='nmodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT3} download>R script used for the analysis</a>
+                      <a href={ARTEFACT3} target='_blank' rel='noopener noreferrer'>R script used for the analysis</a>
                   </h4>
                 </div>
               </article>
@@ -123,7 +123,7 @@ const NumericalAnalysis = () => {
                 <BsFileEarmarkPdfFill className='nmodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT4} download>Individual Reflection</a>
+                      <a href={ARTEFACT4} target='_blank' rel='noopener noreferrer'>Individual Reflection</a>
                   </h4>
                 </div>
               </article>

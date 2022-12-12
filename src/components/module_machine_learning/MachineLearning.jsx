@@ -137,7 +137,7 @@ const MachineLearning = () => {
                 <BsFileEarmarkPdfFill className='mlmodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT1} download>Teamwork: Airbnb EDA</a>
+                      <a href={ARTEFACT1} target='_blank' rel='noopener noreferrer'>Teamwork: Airbnb EDA</a>
                   </h4>
                 </div>
               </article>
@@ -146,7 +146,7 @@ const MachineLearning = () => {
                 <BsFileEarmarkCodeFill className='mlmodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT2} download>Teamwork: Jupyter notebook (code)</a>
+                      <a href={ARTEFACT2} target='_blank' rel='noopener noreferrer'>Teamwork: Jupyter notebook (code)</a>
                   </h4>
                 </div>
               </article>
@@ -155,7 +155,7 @@ const MachineLearning = () => {
                 <BsFileEarmarkPdfFill className='mlmodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT3} download>Teamwork: Summative Assessment of Neural Networks</a>
+                      <a href={ARTEFACT3} target='_blank' rel='noopener noreferrer'>Teamwork: Summative Assessment of Neural Networks</a>
                   </h4>
                 </div>
               </article>
@@ -164,7 +164,7 @@ const MachineLearning = () => {
                 <BsFileEarmarkPdfFill className='mlmodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT4} download>Teamwork: Transcript for Summative Assessment</a>
+                      <a href={ARTEFACT4} target='_blank' rel='noopener noreferrer'>Teamwork: Transcript for Summative Assessment</a>
                   </h4>
                 </div>
               </article>
@@ -173,7 +173,7 @@ const MachineLearning = () => {
                 <BsFileEarmarkPdfFill className='mlmodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT5} download>Individual Reflection</a>
+                      <a href={ARTEFACT5} target='_blank' rel='noopener noreferrer'>Individual Reflection</a>
                   </h4>
                 </div>
               </article>

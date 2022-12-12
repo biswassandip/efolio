@@ -109,7 +109,7 @@ const UnderstandingAI = () => {
                 <BsFileEarmarkPdfFill className='umodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT1} download>Evaluation of AI Solution</a>
+                      <a href={ARTEFACT1} target='_blank' rel='noopener noreferrer'>Evaluation of AI Solution</a>
                   </h4>
                 </div>
               </article>
@@ -118,7 +118,7 @@ const UnderstandingAI = () => {
                 <BsFileEarmarkPdfFill className='umodule__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT2} download>Implementation of the AI Solution</a>
+                      <a href={ARTEFACT2} target='_blank' rel='noopener noreferrer'>Implementation of the AI Solution</a>
                   </h4>
                 </div>
               </article>
