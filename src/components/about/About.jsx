@@ -5,7 +5,7 @@ import React from 'react'
 
 import './about.css'
 
-import ME from '../../assets/aboutme.png'
+import ME from '../../assets/self.png'
 
 const About = () => {
   return (

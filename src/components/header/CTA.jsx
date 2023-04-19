@@ -15,6 +15,7 @@ const CTA = () => {
           <a href="#umodule" className='btn btn-primary'><MdWbIncandescent/> <br/>Understanding AI</a>        
           <a href="#nmodule" className='btn btn-primary'><FaSortNumericDown/> <br/>Numerical Analysis</a>  
           <a href="#mlmodule" className='btn btn-primary'><VscServerProcess/> <br/>Machine Learning</a>  
+          <a href="#nlp" className='btn btn-primary'><VscServerProcess/> <br/>NLP</a>  
           {/* <a href="#contact" className='btn btn-primary'><AiOutlineContacts/> <br/>Contact</a>         */}
         </div>      
         <div className="cta__icons">
@@ -23,6 +24,7 @@ const CTA = () => {
           <a href="#umodule" className='btn btn-primary'><MdWbIncandescent/></a>        
           <a href="#nmodule" className='btn btn-primary'><FaSortNumericDown/></a>  
           <a href="#mlmodule" className='btn btn-primary'><VscServerProcess/></a>  
+          <a href="#nlp" className='btn btn-primary'><VscServerProcess/></a>  
           <a href="#contact" className='btn btn-primary'><AiOutlineContacts/></a>        
         </div>      
     </div>
