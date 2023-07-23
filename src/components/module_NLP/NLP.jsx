@@ -3,7 +3,7 @@ import React from 'react'
 import { IoMdArrowRoundForward } from 'react-icons/io'
 import { BsFileEarmarkPdfFill } from 'react-icons/bs'
 import { GiDiscussion } from 'react-icons/gi'
-import { FaAmericanSignLanguageInterpreting } from 'react-icons/fa'
+import { GiGiftOfKnowledge } from 'react-icons/gi'
 
 import ARTEFACT1 from '../../artefacts/KRR-Case-Study.pdf'
 import ARTEFACT2 from '../../artefacts/Library-Search-Prototype.pdf'
@@ -17,7 +17,7 @@ const NLP = () => {
     <div id="nlp">
       <div className='separator'>
         <span className="text">
-          <FaAmericanSignLanguageInterpreting/> Module: Knowledge Representation & Reasoning
+          <GiGiftOfKnowledge/> Module: Knowledge Representation & Reasoning (KR&R)
         </span>
       </div>
       
@@ -29,20 +29,23 @@ const NLP = () => {
         <div className="container nlp__container">
 
           <p>
-            The Knowledge representation and reasoning (KRR) module within Artificial Intelligence (AI) was the most challenging and exciting of the modules as it dealt with understanding how and why of the representation of knowledge so that machines can use it to solve problems. The objective of KRR is to build a model that is coupled with accuracy and efficiency.
+            The Knowledge representation and reasoning (KR&R) module within Artificial Intelligence (AI) was the most challenging and exciting of the modules as it dealt with understanding how and why of the representation of knowledge so that machines can use it to solve problems. The objective of KRR is to build a model that is coupled with accuracy and efficiency.
+            <br/>
+            <br/>
+            The fundamental area of NLP is KR&R. It enables machines to comprehend and process human-like knowledge to facilitate automated intelligent behaviour. KR&R forms the backbone of various NLP tasks, such as question answering, information retrieval, and natural language understanding, by encoding knowledge in a structured format and employing reasoning mechanisms to draw inferences. 
           </p>
             <p>            
-            This module starts by providing hands-on explanations that has been used for generating classifications and trained modules that can be run and re-run to build automated classifiers. These can then be evaluated and deployed.
-            The methodology used was <i>CRISP-DM</i> and here we reviewed it by applying the datafiles to the <i>WEKA</i> tool.
+            Its all about representation of knowledge in a formal and structured that builds an effective reasoning with supporting knowledge integration.
+            This is acheived with Ontology that plays a crucial role in the building of systems that can understand, interpret, and reason over complex information.
             <br />
             <br />            
-            Found better understanding by implementing the processes, steps and methods with an assignment using a banking dataset that built the foundation for <i>Python, WEKA, Linux</i> and reviewing tools like <i>WEKA, IBM SPSS Modeler</i> for CRISP-DM and Azure ML Studio.
+            Ontologies have become a part of the W3C standards as a building block to Semantic Technology by providing a required structure to stitch information with other pieces of data on the Web.
           </p>
             <p>
-            The module was better understood with discussion forums and feedbacks. I strated on by adding to the forum about the <i>"Rapid evolution in AI – requires processed data for Assistive Technologies (AT)".</i>
+            A case review, “Ontology development for agriculture domain”, on the paper <i>The paper, Malik, N., Sharan, A. & Hijam, D. (2015) March. Ontology development for agriculture domain. In 2015 2nd International Conference on Computing for Sustainable Global Development (INDIACom) (pp. 738-742). IEEE</i> as an exercise revealed how the representation of knowledge can be shared, re-used and build knowledge about the domain, all the descriptions and unstructured pieces of information.
             <br />
             <br />
-            Concluded the module with discussing about the various Learnings used to build AI modules. It's application and proposed solution. Added the topic about <i>"Software Engineering with supervised, unsupervised and semi-supervised learnings"</i> within the discussion forums.
+            Concluded the module by building a prototype using Ontology and Protege for a Library Search System.
           </p>
                       
           <div className="nlp__LO">
@@ -52,21 +55,21 @@ const NLP = () => {
               <article className='nlp__details'>
                 <IoMdArrowRoundForward className='nlp__details-icon'/>
                 <div>
-                  <h4>Evolution of AI, Future and Features</h4>
+                  <h4>Why KR&R and how NLP integrates?</h4>
                 </div>
               </article>
             
               <article className='nlp__details'>
                 <IoMdArrowRoundForward className='nlp__details-icon'/>
                 <div>
-                  <h4>Applications of AI, it's capabilities and uses</h4>
+                  <h4>Formal structuring & Tools - Ontology, Protege</h4>
                 </div>
               </article>
 
               <article className='nlp__details'>
                 <IoMdArrowRoundForward className='nlp__details-icon'/>
                 <div>
-                  <h4>Governance, Ethics and Issues around AI </h4>
+                  <h4>Evaluate knowledge-based systems and atheir applications </h4>
                 </div>
               </article>
             </div>
@@ -79,21 +82,21 @@ const NLP = () => {
               <article className='nlp__details'>
                 <GiDiscussion className='nlp__details-icon'/>
                 <div>
-                  <h4>Transformation of Society due to AI</h4>
+                  <h4>Formal approaches to KR&R</h4>
                 </div>
               </article>
             
               <article className='nlp__details'>
                 <GiDiscussion className='nlp__details-icon'/>
                 <div>
-                  <h4>Economic upliftmentss due to AI</h4>
+                  <h4>Properties and their criticality in knowledge-based systems</h4>
                 </div>
               </article>
 
               <article className='nlp__details'>
                 <GiDiscussion className='nlp__details-icon'/>
                 <div>
-                  <h4>Principles, Methods and Concepts of AI</h4>
+                  <h4>Modelling Techniques for KR&R</h4>
                 </div>
               </article>
 

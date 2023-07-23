@@ -7,6 +7,7 @@ import UnderstandingAI from './components/module_understanding_ai/UnderstandingA
 import NumericalAnalysis from './components/module_numerical_analysis/NumericalAnalysis'
 import MachineLearning from './components/module_machine_learning/MachineLearning'
 import NLP from './components/module_NLP/NLP'
+import IA from './components/module_ia/ia'
 
 
 import Footer from './components/footer/Footer'
@@ -21,6 +22,7 @@ const App = () => {
       <NumericalAnalysis />
       <MachineLearning />
       <NLP />
+      <IA />
       <Footer />
     </>
   )
