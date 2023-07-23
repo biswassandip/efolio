@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/efolio/static/css/main.7ebfff59.css",
-    "main.js": "/efolio/static/js/main.47ec2e81.js",
+    "main.css": "/efolio/static/css/main.85177631.css",
+    "main.js": "/efolio/static/js/main.780e6a2c.js",
     "static/media/AI-Solution.pdf": "/efolio/static/media/AI-Solution.df974382138a9f903d7e.pdf",
     "static/media/Teamwork-Summative_Assessment-NeuralNetworks.pdf": "/efolio/static/media/Teamwork-Summative_Assessment-NeuralNetworks.432db7c5b84ff03b942b.pdf",
     "static/media/Teamwork-Airbnb_Analysis.pdf": "/efolio/static/media/Teamwork-Airbnb_Analysis.0bbcc8a96555be5c1fc5.pdf",
@@ -10,16 +10,16 @@
     "static/media/statistical_analysis.pdf": "/efolio/static/media/statistical_analysis.d9843329f955e2a786b2.pdf",
     "static/media/AI-Applications.pdf": "/efolio/static/media/AI-Applications.8e302ccb48021e481286.pdf",
     "static/media/Teamwork-Transcript-Summative_Assessment.pdf": "/efolio/static/media/Teamwork-Transcript-Summative_Assessment.e4980d9f582e3d8ca90c.pdf",
-    "static/media/aboutme.png": "/efolio/static/media/aboutme.c25ee5dcdce6ea7f42f6.png",
+    "static/media/self.png": "/efolio/static/media/self.c10c981b22b91848b7d3.png",
     "static/media/Machine_Learning-Individual_Reflection.pdf": "/efolio/static/media/Machine_Learning-Individual_Reflection.f33f5b589198ef3b7707.pdf",
     "static/media/statistical_analysis_transcript.pdf": "/efolio/static/media/statistical_analysis_transcript.81fa3cdfed14c6bf9021.pdf",
     "static/media/statistical_analysis_script.R": "/efolio/static/media/statistical_analysis_script.9dad83764b4320a2ea71.R",
     "index.html": "/efolio/index.html",
-    "main.7ebfff59.css.map": "/efolio/static/css/main.7ebfff59.css.map",
-    "main.47ec2e81.js.map": "/efolio/static/js/main.47ec2e81.js.map"
+    "main.85177631.css.map": "/efolio/static/css/main.85177631.css.map",
+    "main.780e6a2c.js.map": "/efolio/static/js/main.780e6a2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ebfff59.css",
-    "static/js/main.47ec2e81.js"
+    "static/css/main.85177631.css",
+    "static/js/main.780e6a2c.js"
   ]
 }
