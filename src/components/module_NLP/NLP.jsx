@@ -5,8 +5,9 @@ import { BsFileEarmarkPdfFill } from 'react-icons/bs'
 import { GiDiscussion } from 'react-icons/gi'
 import { FaAmericanSignLanguageInterpreting } from 'react-icons/fa'
 
-import ARTEFACT1 from '../../artefacts/AI-Applications.pdf'
-import ARTEFACT2 from '../../artefacts/AI-Solution.pdf'
+import ARTEFACT1 from '../../artefacts/KRR-Case-Study.pdf'
+import ARTEFACT2 from '../../artefacts/Library-Search-Prototype.pdf'
+import ARTEFACT3 from '../../artefacts/KRR-Individual-Reflection.pdf'
 
 
 import './nlp.css'
@@ -107,20 +108,28 @@ const NLP = () => {
                 <BsFileEarmarkPdfFill className='nlp__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT1} target='_blank' rel='noopener noreferrer'>Evaluation of AI Solution</a>
+                      <a href={ARTEFACT1} target='_blank' rel='noopener noreferrer'>Case Study</a>
                   </h4>
                 </div>
               </article>
             
-              <article className='umodule__details'>
+              <article className='nlp__details'>
                 <BsFileEarmarkPdfFill className='nlp__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT2} target='_blank' rel='noopener noreferrer'>Implementation of the AI Solution</a>
+                      <a href={ARTEFACT2} target='_blank' rel='noopener noreferrer'>Library Search Prototype</a>
                   </h4>
                 </div>
               </article>
 
+              <article className='nlp__details'>
+                <BsFileEarmarkPdfFill className='nlp__details-icon'/>
+                <div>
+                  <h4>
+                      <a href={ARTEFACT3} target='_blank' rel='noopener noreferrer'>Individual Reflection</a>
+                  </h4>
+                </div>
+              </article>
               
             </div>          
           </div>        

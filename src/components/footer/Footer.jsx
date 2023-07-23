@@ -17,6 +17,8 @@ const Footer = () => {
           <li><a href="#nmodule">Numerical Analysis</a></li>
           <li><a href="#mlmodule">Machine Learning</a></li>
           <li><a href="#nlp">NLP</a></li>
+          <li><a href="#KRR">KRR</a></li>
+          <li><a href="#ia">Intelli-Agents</a></li>
         </ul>
 
         <div className="footer__socials">
