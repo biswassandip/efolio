@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/efolio/static/css/main.85177631.css",
-    "main.js": "/efolio/static/js/main.3ad8829f.js",
+    "main.css": "/efolio/static/css/main.3609124a.css",
+    "main.js": "/efolio/static/js/main.35dee871.js",
     "static/media/AI-Solution.pdf": "/efolio/static/media/AI-Solution.df974382138a9f903d7e.pdf",
     "static/media/Teamwork-Summative_Assessment-NeuralNetworks.pdf": "/efolio/static/media/Teamwork-Summative_Assessment-NeuralNetworks.432db7c5b84ff03b942b.pdf",
     "static/media/Teamwork-Airbnb_Analysis.pdf": "/efolio/static/media/Teamwork-Airbnb_Analysis.0bbcc8a96555be5c1fc5.pdf",
     "static/media/airbnb-team-project.ipynb": "/efolio/static/media/airbnb-team-project.6404d22aea0acfa11f4c.ipynb",
+    "static/media/IA-Digital-Forensics-Execution.pdf": "/efolio/static/media/IA-Digital-Forensics-Execution.6953e7ae65cf1487eff4.pdf",
     "static/media/statistical_analysis_reflection.pdf": "/efolio/static/media/statistical_analysis_reflection.af899c46ff3a4fb20333.pdf",
     "static/media/statistical_analysis.pdf": "/efolio/static/media/statistical_analysis.d9843329f955e2a786b2.pdf",
     "static/media/AI-Applications.pdf": "/efolio/static/media/AI-Applications.8e302ccb48021e481286.pdf",
+    "static/media/Library-Search-Prototype.pdf": "/efolio/static/media/Library-Search-Prototype.08a3f3bc6de21ad2da00.pdf",
     "static/media/Teamwork-Transcript-Summative_Assessment.pdf": "/efolio/static/media/Teamwork-Transcript-Summative_Assessment.e4980d9f582e3d8ca90c.pdf",
+    "static/media/IA-Digital-Forensics-Prototype.pdf": "/efolio/static/media/IA-Digital-Forensics-Prototype.13ee73eb23d98ff956d4.pdf",
     "static/media/self.png": "/efolio/static/media/self.c10c981b22b91848b7d3.png",
+    "static/media/KRR-Case-Study.pdf": "/efolio/static/media/KRR-Case-Study.65c32d1b983c180708b1.pdf",
+    "static/media/KRR-Individual-Reflection.pdf": "/efolio/static/media/KRR-Individual-Reflection.dcadacdc9a58887fa0e0.pdf",
     "static/media/Machine_Learning-Individual_Reflection.pdf": "/efolio/static/media/Machine_Learning-Individual_Reflection.f33f5b589198ef3b7707.pdf",
     "static/media/statistical_analysis_transcript.pdf": "/efolio/static/media/statistical_analysis_transcript.81fa3cdfed14c6bf9021.pdf",
     "static/media/statistical_analysis_script.R": "/efolio/static/media/statistical_analysis_script.9dad83764b4320a2ea71.R",
     "index.html": "/efolio/index.html",
-    "main.85177631.css.map": "/efolio/static/css/main.85177631.css.map",
-    "main.3ad8829f.js.map": "/efolio/static/js/main.3ad8829f.js.map"
+    "main.3609124a.css.map": "/efolio/static/css/main.3609124a.css.map",
+    "main.35dee871.js.map": "/efolio/static/js/main.35dee871.js.map"
   },
   "entrypoints": [
-    "static/css/main.85177631.css",
-    "static/js/main.3ad8829f.js"
+    "static/css/main.3609124a.css",
+    "static/js/main.35dee871.js"
   ]
 }
