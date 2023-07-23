@@ -52,7 +52,7 @@ const About = () => {
             </div> */}
 
             <p>
-              An ethusiasting to solve problems and find answers. A great cook, gardener and a dog lover.
+              An ethusiast to solve problems and find answers. A great cook, gardener and a dog lover.
               A Programmer by heart and an Architect by profession.
               Lead solutions for Telecom, Betting (Sports) and Commerce companies.
               Pursuing M. Sc. in Artificial Intelligence (AI), from Univeristy of Essex to set myself in a deep-diving drive for the subject and collaborating knowledge with fellow students, teachers and experts.
