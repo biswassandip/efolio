@@ -4,6 +4,7 @@ import { AiOutlineHome, AiOutlineUser, AiOutlineContacts } from 'react-icons/ai'
 import { FaSortNumericDown } from 'react-icons/fa'
 import { MdWbIncandescent } from 'react-icons/md'
 import { VscServerProcess } from 'react-icons/vsc'
+import { FaAmericanSignLanguageInterpreting } from 'react-icons/fa'
 
 import './nav.css'
 
@@ -19,7 +20,7 @@ const Nav = () => {
       <a href="#umodule" onClick={()=>setActiveNav('#umodule')} className={activeNav==='#umodule' ? 'active' : ''}><MdWbIncandescent/></a>
       <a href="#nmodule" onClick={()=>setActiveNav('#nmodule')} className={activeNav==='#nmodule' ? 'active' : ''}><FaSortNumericDown/></a>
       <a href="#mlmodule" onClick={()=>setActiveNav('#mlmodule')} className={activeNav==='#mlmodule' ? 'active' : ''}><VscServerProcess/></a>
-      <a href="#nlp" onClick={()=>setActiveNav('#nlp')} className={activeNav==='#nlp' ? 'active' : ''}><VscServerProcess/></a>
+      <a href="#nlp" onClick={()=>setActiveNav('#nlp')} className={activeNav==='#nlp' ? 'active' : ''}><FaAmericanSignLanguageInterpreting/></a>
       {/* <a href="#contact" onClick={()=>setActiveNav('#contact')} className={activeNav==='#contact' ? 'active' : ''}><AiOutlineContacts/></a> */}
     </nav>
   )

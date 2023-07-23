@@ -3,7 +3,7 @@ import React from 'react'
 import { IoMdArrowRoundForward } from 'react-icons/io'
 import { BsFileEarmarkPdfFill } from 'react-icons/bs'
 import { GiDiscussion } from 'react-icons/gi'
-import { MdWbIncandescent } from 'react-icons/md'
+import { FaAmericanSignLanguageInterpreting } from 'react-icons/fa'
 
 import ARTEFACT1 from '../../artefacts/AI-Applications.pdf'
 import ARTEFACT2 from '../../artefacts/AI-Solution.pdf'
@@ -16,22 +16,20 @@ const NLP = () => {
     <div id="nlp">
       <div className='separator'>
         <span className="text">
-          <MdWbIncandescent/> Module: NLP
+          <FaAmericanSignLanguageInterpreting/> Module: Knowledge Representation & Reasoning
         </span>
       </div>
       
       <section id='nlp' className='nlp'>
         <center>
-          <h5>(Module started on March 2022)</h5>
+          <h5>(Module started on January 2023)</h5>
         </center>
         <br/>
         <div className="container nlp__container">
-            <p>
-            “Artificial Intelligence (AI)”, what is artificial about it in computer science?. This module begins with explaining about how AI has changed the thinking in various fields.
-            <br />
-            <br />            
-            We have been using the benefits of AI along with its analytics and intelligence provider, Machine Learning (ML). Artificial Intelligence (AI) and Machine Learning (ML) have differences. Still, they together have given humanity applications in every area, like machines that can compute and think as humans do or applications that can mine, extract and discover data patterns turning them into useful information.
-            </p>
+
+          <p>
+            The Knowledge representation and reasoning (KRR) module within Artificial Intelligence (AI) was the most challenging and exciting of the modules as it dealt with understanding how and why of the representation of knowledge so that machines can use it to solve problems. The objective of KRR is to build a model that is coupled with accuracy and efficiency.
+          </p>
             <p>            
             This module starts by providing hands-on explanations that has been used for generating classifications and trained modules that can be run and re-run to build automated classifiers. These can then be evaluated and deployed.
             The methodology used was <i>CRISP-DM</i> and here we reviewed it by applying the datafiles to the <i>WEKA</i> tool.
