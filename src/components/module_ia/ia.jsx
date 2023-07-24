@@ -9,6 +9,7 @@ import ARTEFACT1 from '../../artefacts/IA-Digital-Forensics-Prototype.pdf'
 import ARTEFACT2 from '../../artefacts/IA-Digital-Forensics-Execution.pdf'
 
 
+
 import './ia.css'
 
 const IA = () => {
@@ -28,16 +29,18 @@ const IA = () => {
         <div className="container ia__container">
 
           <p>
-            TBC
+            Within the growing landscape of modern computing there has been a growth in the intelligent-based technologies.
+            These agents have been self governing that take part in important functions and features. One of the importatnt trend that has been observed is 
+            with addressing the complexity and scale of problems that conventional computing approaches face difficulties.
           </p>
             <p>            
-            TBC
+            First Order Logic (FOL) that is a formal logical system that is used for the KR&R in an agent's environment by providing a powerful expressive way to represent it.
             <br />
             <br />            
-            TBC
+            In addition to FOL, KR&R and Natural Language Processing (NLP), this module also deep-dives to agent architectures, communications and types of agents - Symbolic Reasoning, Reactive and Hybrid.
           </p>
             <p>
-            TBC
+            The module as well enhanced by doing activities to create agent dialogues using Knowledge Query and Manipulation Language (KQML) and Knowledge Interchange Format (KIF).
             <br />
             <br />
             TBC
@@ -99,7 +102,7 @@ const IA = () => {
           </div>
 
           <div className="ia__AR">
-          <h3>Assignments</h3>
+          <h3>Team Projects</h3>
             <div className="ia__content">
 
               <article className='ia__details'>

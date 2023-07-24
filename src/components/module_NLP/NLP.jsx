@@ -17,7 +17,7 @@ const NLP = () => {
     <div id="nlp">
       <div className='separator'>
         <span className="text">
-          <GiGiftOfKnowledge/> Module: Knowledge Representation & Reasoning (KR&R)
+          <GiGiftOfKnowledge/> Module: Knowledge Representation & Reasoning
         </span>
       </div>
       
