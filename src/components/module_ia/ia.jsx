@@ -40,14 +40,14 @@ const IA = () => {
             In addition to FOL, KR&R and Natural Language Processing (NLP), this module also deep-dives to agent architectures, communications and types of agents - Symbolic Reasoning, Reactive and Hybrid.
           </p>
             <p>
-            The module as well understood by doing activities to create agent dialogues using Knowledge Query and Manipulation Language (KQML) and Knowledge Interchange Format (KIF). A simplistic code can be found at <a href="https://github.com/biswassandip/efolio/tree/main/e-folio-tasks/intelligent-agents/unit6" target="_blank" rel="noopener noreferrer">Github: Here</a>
+            The module as well understood by doing activities to create agent dialogues using Knowledge Query and Manipulation Language (KQML) and Knowledge Interchange Format (KIF). A simplistic code can be found <a href="https://github.com/biswassandip/efolio/tree/main/e-folio-tasks/intelligent-agents/unit6" target="_blank" rel="noopener noreferrer">Github: Here</a>
             <br />
             <br />            
             KQML and KIF are knowledge representation languages that have been used for communication between agents in distributed artificial intelligence systems. However, they have been superseded by more modern and efficient alternatives, such as HTTP and REST. KQML and KIF are still useful for some applications, but they are not as widely used as they once were.
             <br />
             <br />
             A task of creating constituency-based parse trees provided with understanding about various essential NLP tasks like syntactic analysis, grammar checking, information extraction, and machine translation.
-            The task can be found <a href="https://github.com/biswassandip/efolio/tree/main/e-folio-tasks/intelligent-agents/unit8" target="_blank" rel="noopener noreferrer">Githiub: Here</a>
+            The task can be found <a href="https://github.com/biswassandip/efolio/tree/main/e-folio-tasks/intelligent-agents/unit8" target="_blank" rel="noopener noreferrer">Github: Here</a>
           </p>
                       
           <div className="ia__LO">
