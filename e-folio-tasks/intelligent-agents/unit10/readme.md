@@ -2,25 +2,25 @@
 
 ## Overview of the Technology:
 
-Artificial intelligence is transforming the transportation industry, and deep learning is playing a key role in this revolution. Deep learning algorithms are trained on massive datasets of data to learn how to perform tasks such as object detection, lane detection, and obstacle avoidance. This allows self-driving cars to perceive and navigate their surroundings without human intervention.
+Deep learning plays a vital role in the revolution of artificial intelligence in the transportation industry. Deep learning algorithms are trained on massive datasets of data to learn how to perform tasks such as object detection, lane detection, and obstacle avoidance. It enables self-driving cars to perceive and navigate their surroundings without human assistance.
 
-By processing data from sensors, cameras, and other sources, deep learning algorithms can make informed decisions about how to drive safely on roads. This has the potential to reduce accidents and improve transportation efficiency.
+Deep learning algorithms make informed decisions about driving safely on roads based on data from sensors, cameras, and other sources. The result would be a reduction in accidents and an increase in transportation efficiency.
 
 Here are some specific examples of how deep learning is being used in self-driving cars:
 
 #### Object detection.
 
-Deep learning algorithms can be used to identify objects such as cars, pedestrians, and traffic signs in a car's field of view. This information can be used to avoid collisions and make safe driving decisions.
+A car's field of view can be used to identify objects such as cars, pedestrians, and traffic signs using deep learning algorithms. By using this information, you can avoid collisions and make safe driving decisions.
 
 #### Lane detection.
 
-Deep learning algorithms can be used to identify lane markings on the road. This information can be used to keep the car centered in its lane and avoid drifting out of control.
+Lane markings on the road can be identified using deep learning algorithms. This information can be used to keep the car centered in its lane and avoid drifting out of control.
 
 #### Obstacle avoidance.
 
-Deep learning algorithms can be used to identify obstacles in the car's path, such as other vehicles, pedestrians, and animals. This information can be used to brake or steer the car away from the obstacle.
+Deep learning algorithms can identify obstacles in the car's path, like vehicles, pedestrians, and animals. This information helps the car brake or steer away from the obstacle.
 
-Deep learning is still a developing technology, but it has the potential to revolutionize the transportation industry. Self-driving cars that use deep learning could make roads safer and more efficient, and they could also provide new mobility options for people who cannot drive themselves.
+Deep learning is a developing technology with the potential to revolutionize the transportation industry. Self-driving cars using deep learning can make roads safer and more efficient, and provide new mobility options for non-drivers.
 
 ## Brief Synopsis of How It Works:
 
