@@ -47,7 +47,7 @@ const IA = () => {
             <br />
             <br />
             A task of creating constituency-based parse trees provided with understanding about various essential NLP tasks like syntactic analysis, grammar checking, information extraction, and machine translation.
-            The task can be found at 
+            The task can be found <a href="https://github.com/biswassandip/efolio/tree/main/e-folio-tasks/intelligent-agents/unit8" target="_blank" rel="noopener noreferrer">Githiub: Here</a>
           </p>
                       
           <div className="ia__LO">
