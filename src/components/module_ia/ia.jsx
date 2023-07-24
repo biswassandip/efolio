@@ -40,7 +40,8 @@ const IA = () => {
             In addition to FOL, KR&R and Natural Language Processing (NLP), this module also deep-dives to agent architectures, communications and types of agents - Symbolic Reasoning, Reactive and Hybrid.
           </p>
             <p>
-            The module as well enhanced by doing activities to create agent dialogues using Knowledge Query and Manipulation Language (KQML) and Knowledge Interchange Format (KIF).
+            The module as well enhanced by doing activities to create agent dialogues using Knowledge Query and Manipulation Language (KQML) and Knowledge Interchange Format (KIF). A simplistic code can be found in Github.
+            
             <br />
             <br />
             TBC

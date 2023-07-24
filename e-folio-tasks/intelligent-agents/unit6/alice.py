@@ -7,8 +7,7 @@ class Alice(KQMLModule):
     def __init__(self):
         super(Alice, self).__init__()
 
-    def send_eval_request_to_bob(self):
-        kif_expression = '(+ 2 3)'  # KIF expression to be evaluated by Bob
+    def send_eval_request_to_bob(self, kif_expression):
         content = {'expression': kif_expression}
         performative = KQMLPerformative('EVAL', content)
         msg = self.build_message('bob', performative)
@@ -31,4 +30,9 @@ class Alice(KQMLModule):
 if __name__ == "__main__":
     alice = Alice()
     alice.start()
-    alice.send_eval_request_to_bob()
+
+    # Alice asks about the available stock of 50-inch televisions
+    alice.send_eval_request_to_bob('(query-stock 50-inch-televisions)')
+
+    # Alice asks about the number of HDMI slots for 50-inch televisions
+    alice.send_eval_request_to_bob('(query-hdmi-slots 50-inch-televisions)')
