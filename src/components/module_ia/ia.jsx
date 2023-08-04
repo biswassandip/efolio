@@ -15,16 +15,14 @@ import './ia.css'
 const IA = () => {
   return (
     <div id="ia">
-      <div className='separator'>
-        <span className="text">
-          <SiProbot/> Module: Intelligent Agents
-        </span>
-      </div>
       
       <section id='ia' className='ia'>
-        <center>
-          <h5>(Module started on May 2023)</h5>
-        </center>
+        <div className='separator'>
+          <span className="ia__header">
+            <SiProbot/> Module: Intelligent Agents
+          </span>
+          <h5 className='ia__subheader'>(Module started on May 2023)</h5>
+        </div>
         <br/>
         <div className="container ia__container">
 

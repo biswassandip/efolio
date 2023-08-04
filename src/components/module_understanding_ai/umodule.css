@@ -1,6 +1,14 @@
+:root {
+    --color-umodule-background: #A0AECD;
+    --color-umodule-header: #031e57;
+    --color-umodule-content-text:#031e57;
+    --color-umodule-tile_color: #000000;
+}
+
 .umodule {
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
+    background: var(--color-umodule-background);
 }
 
 .umodule__container {
@@ -8,29 +16,42 @@
     /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    color: var(--color-umodule-content-text);
+}
+
+.umodule__header {
+    background-color: transparent;
+    color: var(--color-umodule-header);
+    font-size: 1.8rem;
+}
+
+.umodule__subheader {
+    background-color: transparent;
+    color: var(--color-umodule-header);
+    font-size: 0.8rem;
 }
 
 /* direct divs inside the container */
 .umodule__container > div {
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant); */
     padding: 2.4rem 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-umodule-tile_color);
 }
 
 .umodule__container > div:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-white);
     cursor: default;
 }
 
 .umodule__container > div h3 {
     text-align: center;
     margin-bottom: 1rem;
-    color: var(--color-primary);
+    color:  var(--color-umodule-header);
 }
 
 .umodule__container>div a {
@@ -50,7 +71,8 @@
 
 .umodule__details-icon {
     margin-top: 6px;
-    color: var(--color-primary);
+    color: var(--color-umodule-header);
+    font-size: 1.2rem;
 }
 
 

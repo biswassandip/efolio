@@ -14,36 +14,54 @@ import './umodule.css'
 const UnderstandingAI = () => {
   return (
     <div id="umodule">
-      <div className='separator'>
-        <span className="text">
-          <MdWbIncandescent/> Module: Understanding AI
-        </span>
-      </div>
       
       <section id='umodule' className='umodule'>
-        <center>
-          <h5>(Module started on March 2022)</h5>
-        </center>
-        <br/>
+
+        <div className='separator'>
+          <span className="umodule__header">
+            <MdWbIncandescent/> Module: Understanding AI
+          </span>
+          <h5 className='umodule__subheader'>(Module started on March 2022)</h5>
+        </div>
+
+
+        <br />
+        
         <div className="container umodule__container">
             <p>
-            “Artificial Intelligence (AI)”, what is artificial about it in computer science?. This module begins with explaining about how AI has changed the thinking in various fields.
+            "Artificial Intelligence (AI)" refers to the simulation of human intelligence processes by machines, particularly
+            computer systems. In the field of computer science, AI has undergone significant transformation. This module delves
+            into the evolving landscape of AI and its profound impact on various disciplines.
             <br />
             <br />            
-            We have been using the benefits of AI along with its analytics and intelligence provider, Machine Learning (ML). Artificial Intelligence (AI) and Machine Learning (ML) have differences. Still, they together have given humanity applications in every area, like machines that can compute and think as humans do or applications that can mine, extract and discover data patterns turning them into useful information.
+            The integration of Artificial Intelligence (AI) and Machine Learning (ML) has become integral to modern technology.
+            AI entails the emulation of cognitive functions, while ML involves the utilization of algorithms to enable systems to
+            learn from data and improve their performance over time. These two domains, though distinct, have synergized to yield
+            a plethora of applications across diverse sectors. Notably, this encompasses the development of machines capable of
+            human-like computation and reasoning, as well as applications adept at extracting, analyzing, and interpreting data
+            patterns to derive actionable insights.
             </p>
             <p>            
-            This module starts by providing hands-on explanations that has been used for generating classifications and trained modules that can be run and re-run to build automated classifiers. These can then be evaluated and deployed.
-            The methodology used was <i>CRISP-DM</i> and here we reviewed it by applying the datafiles to the <i>WEKA</i> tool.
+            A fundamental component of this module is hands-on exploration, which encompasses the creation of classifications and
+            the training of modules. These modules can be executed iteratively to establish automated classifiers. The Comprehensive,
+            Reflective, Integrative, Strategic, and Detailed (<i>CRISP-DM</i>) methodology serves as the guiding framework, and its efficacy
+            is evaluated through its application to data sets using the <i>WEKA</i> tool, a widely used data mining software.
             <br />
             <br />            
-            Found better understanding by implementing the processes, steps and methods with an assignment using a banking dataset that built the foundation for <i>Python, WEKA, Linux</i> and reviewing tools like <i>WEKA, IBM SPSS Modeler</i> for CRISP-DM and Azure ML Studio.
+            The practical aspect of the module is fortified by an assignment involving a banking dataset. This assignment serves as a
+            bedrock for instruction in Python programming, WEKA utilization, Linux proficiency, and an examination of tools like <i>WEKA</i>,
+            <i>IBM SPSS Modeler</i>, and <i>Azure ML Studio</i> within the <i>CRISP-DM</i> context.
           </p>
             <p>
-            The module was better understood with discussion forums and feedbacks. I strated on by adding to the forum about the <i>"Rapid evolution in AI – requires processed data for Assistive Technologies (AT)".</i>
+            Augmenting the learning experience are vibrant discussion forums and valuable feedback mechanisms. Active participation in
+            these forums is exemplified by contributions such as the discourse on "Rapid Evolution in AI - Necessitating Processed Data for
+            Assistive Technologies (AT)."
             <br />
             <br />
-            Concluded the module with discussing about the various Learnings used to build AI modules. It's application and proposed solution. Added the topic about <i>"Software Engineering with supervised, unsupervised and semi-supervised learnings"</i> within the discussion forums.
+            In conclusion, the module encapsulates an extensive exploration of diverse learning modalities employed in the construction of
+            AI modules. It probes their practical applications and proposes potential solutions. Noteworthy among the topics is the integration
+            of "Software Engineering with Supervised, Unsupervised, and Semi-Supervised Learnings," which engenders substantive discussions
+            within the forum environment.
           </p>
                       
           <div className="umodule__LO">
@@ -131,7 +149,7 @@ const UnderstandingAI = () => {
         </div>
 
       </section>
-      </div>
+    </div>
   )
 }
 

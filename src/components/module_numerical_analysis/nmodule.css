@@ -1,36 +1,57 @@
+:root {
+    --color-nmodule-background: #a5babb;
+    --color-nmodule-header: #012629;
+    --color-nmodule-content-text: #012629;
+    --color-nmodule-tile_color: #000000;
+}
+
 .nmodule {
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
+    background: var(--color-nmodule-background);
 }
 
 .nmodule__container {
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    color: var(--color-nmodule-content-text);
+}
+
+.nmodule__header {
+    background-color: transparent;
+    color: var(--color-nmodule-header);
+    font-size: 1.8rem;
+}
+
+.nmodule__subheader {
+    background-color: transparent;
+    color: var(--color-nmodule-header);
+    font-size: 0.8rem;
 }
 
 /* direct divs inside the container */
 .nmodule__container > div {
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant); */
     padding: 2.4rem 1rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-nmodule-tile_color);
 }
 
 .nmodule__container > div:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-white);
     cursor: default;
 }
 
 .nmodule__container > div h3 {
     text-align: center;
     margin-bottom: 1rem;
-    color: var(--color-primary);
+    color: var(--color-nmodule-header);
 }
 
 .nmodule__container>div a {
@@ -50,7 +71,8 @@
 
 .nmodule__details-icon {
     margin-top: 6px;
-    color: var(--color-primary);
+    color: var(--color-nmodule-header);
+    font-size: 1.2rem;
 }
 
 

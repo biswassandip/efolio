@@ -23,27 +23,59 @@ import './mlmodule.css'
 const MachineLearning = () => {
   return (
     <div id="mlmodule">
-      <div className='separator'>
-        <span className="text">
-          <VscServerProcess/> Module: Machine Learning
-        </span>
-      </div>
 
     <section id='mlmodule' className='mlmodule'>
-              <center>
-          <h5>(Module started on September 2022)</h5>
-        </center>
+      <div className='separator'>
+        <span className="mlmodule__header">
+          <VscServerProcess/> Module: Machine Learning
+          </span>
+          <h5 className='mlmodule__subheader'>(Module started on September 2022)</h5>
+      </div>
+
         <br/>
 
         <div className="container mlmodule__container">    
           <p>
-            The Machine Learning module further elaborated on building the concepts around exploring the data and inferring from them. It helped build a strong base to implement Neural Networks and then handle the samples. This module helped in understanding the concepts behind object recognition and its segregation. Going further in providing an understanding of how machines perceive data and how objects can be classified. It also delves into the deeper side of object detection            
+            Machine Learning, a dynamic field within Artificial Intelligence, serves as the backbone of intelligent systems.
+            It empowers these systems to learn from data, adapt to new information, and improve their performance over time.
+            In the context of this learning journey, the Machine Learning module emerged as a pivotal gateway to unravel the
+            intricacies of data exploration, inference, and the seamless integration of these concepts into the broader landscape
+            of Artificial Intelligence.
+            <br/>
+            <br/>
+            Delving into the specifics of the module, it embarked on an enlightening exploration of data, fostering a profound
+            comprehension of how information can be extracted and insights can be gleaned. This foundational understanding then
+            paved the way for the implementation of Neural Networks, a cornerstone of modern AI. Equipped with this knowledge,
+            we seamlessly transitioned into the domain of data handling, mastering the art of managing data samples to drive
+            meaningful outcomes.
           </p>
           <p>
-            The journey was made more challenging by providing knowledge by introducing team assignments. We, as a group, ran through proper meeting setups, note-taking, actions and tasks, followed by reviews. It was an interesting project of doing a business analysis on the “Airbnb” dataset for our defined business case of “competitive prices for Airbnb room listings based on locality”. The preparation involved brushing through EDA libraries used in Python and then setting up Jupyter notebook.            
+            One of the module's crowning achievements was demystifying the enigma of object recognition. Through meticulous
+            study and hands-on experience, we unveiled the underlying principles governing this process, enabling us to not
+            only classify objects but also delve into more advanced realms of object detection. This was a pivotal step in
+            unraveling the complexity of how machines perceive and interact with the world around them.
+            <br/>
+            <br/>
+            As the learning journey progressed, the module introduced the concept of collaborative learning through team assignments.
+            This dimension added an extra layer of challenge, fostering proficiency in teamwork, efficient meeting structures,
+            comprehensive note-taking, task execution, and critical performance reviews. Notably, a captivating project emerged,
+            centered around conducting a strategic business analysis of Airbnb's vast dataset. Our mission was to devise optimal
+            pricing strategies for Airbnb room listings, based on specific geographical considerations. This endeavor required us to
+            navigate through Python's exploratory data analysis libraries and skillfully set up Jupyter notebooks.
           </p>
           <p>
-            The journey became more interesting with the introduction of Artificial Neural Networks (ANNs), which provided comprehensive knowledge about ANNs and their effectiveness in the industrial revolution. I was able to gain knowledge on the application of ANN techniques by defining & designing the ANN artefacts by understanding the different functions used for ANN.
+            Amidst this immersive experience, the narrative took an exciting twist with the emergence of Artificial Neural Networks (ANNs).
+            This segment offered a comprehensive understanding of ANNs, their pivotal role in driving the ongoing industrial revolution,
+            and their transformative impact on AI. I acquired a profound grasp of applying ANN techniques, delving into the meticulous
+            design and definition of ANN components. This experience unveiled the multifaceted functions that underpin ANNs' effectiveness,
+            fostering a holistic comprehension of their potential in shaping the future of Artificial Intelligence.
+            <br/>
+            <br />
+            In the contemporary landscape, Machine Learning stands as the driving force behind a multitude of cutting-edge technologies
+            and applications that have become ubiquitous in our daily lives. Take, for instance, the realm of natural language processing,
+            where advanced Machine Learning models enable chatbots and virtual assistants to comprehend and respond to human language nuances
+            with astounding accuracy. These AI-powered companions, found in smartphones and smart home devices, seamlessly integrate into our
+            routines, making tasks more efficient and engaging.
           </p>
 
           <div className="mlmodule__LO">

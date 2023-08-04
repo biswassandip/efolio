@@ -1,19 +1,42 @@
+:root {
+    --color-about-background: #67BDC3;
+    --color-about-header: #03393d;
+    --color-about-content-text: #03393d;
+    --color-about-tile_color: #000000;
+}
+
 .about {
-    padding-top: 3rem;
+    padding-top: 2rem;
     padding-bottom: 3rem;
+    background: var(--color-about-background);
+}
+
+.about__header {
+    background-color: transparent;
+    color: var(--color-about-header);
+    font-size: 1.8rem;
+}
+
+.about__subheader {
+    background-color: transparent;
+    color: var(--color-about-header);
+    font-size: 0.8rem;
 }
 
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
+    grid-template-columns: 20% 80%;
     gap: 15%;
+    color: var(--color-about-content-text);
+    /* grid-template-columns: repeat(1, 1fr); */
 }
 
 .about__me {
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    /* background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    background: #343F71; */
     display: grid;
     place-items: center;
 }
@@ -21,7 +44,7 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    /* transform: rotate(10deg); */
+    /* transform: rotate(-10deg); */
     transition: var(--transition);
 }
 
@@ -42,24 +65,25 @@
 }
 
 .about__card {
-    background: var(--color-bg-variant);
+    /* background: var(--color-bg-variant);
+    background: #343F71; */
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
     background: transparent;
-    border-color: var(--color-primar-variant);
+    border-color: var(--color-about-tile_color);
 }
 
 .about__card:hover {
     background: transparent;
-    border-color: var(--color-primar-variant);
+    border-color: var(--color-white);
     cursor: default;
 }
 
 .about__icon {
-    color: var(--color-primary);
+    color: var(--color-about-content-text);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -70,12 +94,12 @@
 
 .about__card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: var(--color-about-content-text);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-about-content-text);
 }
 
 /* tablets media query */

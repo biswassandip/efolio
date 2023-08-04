@@ -12,12 +12,16 @@
 
 /* css variables throughout the project */
 :root {
-    --color-bg: #141414;
-    --color-bg-variant: #565656;
-    --color-primary: #FBA92C;
-    --color-primary-variant: #E7E8D1;
+    --color-bg: #0F4953;
+    --color-bg-variant: #FFFFFF;
+
+    --color-primary: #F9FCFB;
+    --color-primary-variant: #3F3F3F;
+
     --color-white: #FFFFFF;
-    --color-light: #9E9E9E;
+    --color-light: #3C1874;
+
+    --color-btn: #FFDF6C;
 
     --transition: all 400ms ease; 
 
@@ -37,7 +41,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
-    color: var(--color-light);
+    color: var(--color-bg-variant);
     line-height: 1.7;
     /* background-image: url(../src/assets/bg-texture.jpg); */
 }
@@ -62,16 +66,16 @@ section {
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-light);
+    /* color: var(--color-bg-variant); */
 }
 
 section > h2 {
-    color: var(--color-primary);
-    margin-bottom: 3rem;
+    color: var(--color-bg-variant);
+    margin-bottom: 4rem;
 }
 
 .text-light {
-    color: var(--color-light);
+    color: var(--color-primary);
 }
 
 a {
@@ -80,29 +84,29 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    color: var(--color-primary-variant);
 }
 
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: var(--color-btn);
     padding: 0.08rem 1rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 0.2px solid var(--color-btn);
     transition: var(--transition);
 }
 
 .btn:hover {
     background: transparent;
     color: var(--color-white);
-    border-color: transparenta;
+    border-color: transparent;
 }
 
 .btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
+    color: var(--color-btn);
+    font-size: 0.8rem;
 }
 
 img {
@@ -113,17 +117,19 @@ img {
 
 .separator {
     width: 100%; 
-    height: 17px; 
-    border-bottom: 1px solid var(--color-bg-variant); 
+    height: 0px; 
+    border-bottom: 0px solid var(--color-primary); 
     text-align: center;
+    padding-bottom: 100px;
 }
 
 .text {
-    /* font-size: 40px; */
     background-color: var(--color-bg);
-    padding: 0 10px;
-    color: var(--color-primary);
-    font-size: 1.5rem;
+    /* padding: 10px 10px; */
+    /* padding: 10px 10px 10px 10px; */
+    color: var(--color-white);
+    font-size: 1.4rem;
+    /* border-radius: 10px; */
 }
 
 
@@ -139,7 +145,7 @@ img {
 }
 
 /* phones media query */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .container {
         width: var(--container-width-sm);
     }
