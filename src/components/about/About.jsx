@@ -38,7 +38,7 @@ const About = () => {
             </p>
             <p>            
               My unwavering passion for problem-solving has fueled my drive to seek solutions and unearth insights.
-              Beyond my technological pursuits, I don multiple hats as a skilled cook, avid gardener, and devoted dog enthusiast.
+              Beyond my technological pursuits, I enjoy as a skilled cook, avid gardener, and devoted dog enthusiast.
               My heart beats with the rhythm of a programmer, while my mind thrives in the realm of architectural innovation.
               Noteworthy achievements include spearheading groundbreaking solutions for esteemed entities in the Telecom, Betting (Sports),
               and Commerce domains.
