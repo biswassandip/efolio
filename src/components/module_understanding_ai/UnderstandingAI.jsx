@@ -29,39 +29,22 @@ const UnderstandingAI = () => {
         
         <div className="container umodule__container">
             <p>
-            "Artificial Intelligence (AI)" refers to the simulation of human intelligence processes by machines, particularly
-            computer systems. In the field of computer science, AI has undergone significant transformation. This module delves
-            into the evolving landscape of AI and its profound impact on various disciplines.
+            "Artificial Intelligence (AI)" refers to the simulation of human intelligence processes by machines, particularly computer systems. In the field of computer science, AI has undergone a significant transformation. This module delves into the evolving landscape of AI and its profound impact on various disciplines.
             <br />
             <br />            
-            The integration of Artificial Intelligence (AI) and Machine Learning (ML) has become integral to modern technology.
-            AI entails the emulation of cognitive functions, while ML involves the utilization of algorithms to enable systems to
-            learn from data and improve their performance over time. These two domains, though distinct, have synergized to yield
-            a plethora of applications across diverse sectors. Notably, this encompasses the development of machines capable of
-            human-like computation and reasoning, as well as applications adept at extracting, analyzing, and interpreting data
-            patterns to derive actionable insights.
+            Integrating Artificial Intelligence (AI) and Machine Learning (ML) has become integral to modern technology. AI entails emulating cognitive functions, while ML involves using algorithms to enable systems to learn from data and improve their performance over time. Though distinct, these two domains have synergised to yield many applications across diverse sectors. Notably, this encompasses the development of machines capable of human-like computation, reasoning, and applications adept at extracting, analysing, and interpreting data patterns to derive actionable insights.
             </p>
             <p>            
-            A fundamental component of this module is hands-on exploration, which encompasses the creation of classifications and
-            the training of modules. These modules can be executed iteratively to establish automated classifiers. The Comprehensive,
-            Reflective, Integrative, Strategic, and Detailed (<i>CRISP-DM</i>) methodology serves as the guiding framework, and its efficacy
-            is evaluated through its application to data sets using the <i>WEKA</i> tool, a widely used data mining software.
+            A fundamental component of this module is hands-on exploration, which encompasses the creation of classifications and training modules. These modules can be executed iteratively to establish automated classifiers. The Comprehensive, Reflective, Integrative, Strategic, and Detailed (CRISP-DM) methodology serves as the guiding framework, and its efficacy is evaluated through its application to data sets using the WEKA tool, a widely used data mining software.
             <br />
             <br />            
-            The practical aspect of the module is fortified by an assignment involving a banking dataset. This assignment serves as a
-            bedrock for instruction in Python programming, WEKA utilization, Linux proficiency, and an examination of tools like <i>WEKA</i>,
-            <i>IBM SPSS Modeler</i>, and <i>Azure ML Studio</i> within the <i>CRISP-DM</i> context.
-          </p>
+            The practical aspect of the module is fortified by an assignment involving a banking dataset. This assignment serves as a bedrock for instruction in Python programming, WEKA utilisation, Linux proficiency, and an examination of tools like WEKA, IBM SPSS Modeler, and Azure ML Studio within the CRISP-DM context.
+            </p>
             <p>
-            Augmenting the learning experience are vibrant discussion forums and valuable feedback mechanisms. Active participation in
-            these forums is exemplified by contributions such as the discourse on "Rapid Evolution in AI - Necessitating Processed Data for
-            Assistive Technologies (AT)."
+            Augmenting the learning experience are vibrant discussion forums and valuable feedback mechanisms. Active participation in these forums is exemplified by contributions such as the discourse on "Rapid Evolution in AI - Necessitating Processed Data for Assistive Technologies (AT)."
             <br />
             <br />
-            In conclusion, the module encapsulates an extensive exploration of diverse learning modalities employed in the construction of
-            AI modules. It probes their practical applications and proposes potential solutions. Noteworthy among the topics is the integration
-            of "Software Engineering with Supervised, Unsupervised, and Semi-Supervised Learnings," which engenders substantive discussions
-            within the forum environment.
+            In conclusion, the module encapsulates an extensive exploration of diverse learning modalities employed in constructing AI modules. It probes their practical applications and proposes potential solutions. Integrating "Software Engineering with Supervised, Unsupervised, and Semi-Supervised Learnings" is noteworthy among the topics that engender substantive discussions within the forum environment.
           </p>
                       
           <div className="umodule__LO">

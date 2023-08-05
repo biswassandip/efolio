@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import { AiOutlineHome, AiOutlineUser, AiOutlineContacts } from 'react-icons/ai'
+import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
 import { FaSortNumericDown } from 'react-icons/fa'
 import { MdWbIncandescent } from 'react-icons/md'
 import { VscServerProcess } from 'react-icons/vsc'
@@ -21,7 +21,7 @@ const Nav = () => {
       <a href="#umodule" onClick={()=>setActiveNav('#umodule')} className={activeNav==='#umodule' ? 'active' : ''}><MdWbIncandescent/></a>
       <a href="#nmodule" onClick={()=>setActiveNav('#nmodule')} className={activeNav==='#nmodule' ? 'active' : ''}><FaSortNumericDown/></a>
       <a href="#mlmodule" onClick={()=>setActiveNav('#mlmodule')} className={activeNav==='#mlmodule' ? 'active' : ''}><VscServerProcess/></a>
-      <a href="#nlp" onClick={()=>setActiveNav('#nlp')} className={activeNav==='#nlp' ? 'active' : ''}><GiGiftOfKnowledge/></a>
+      <a href="#nlp" onClick={() => setActiveNav('#nlp')} className={activeNav === '#nlp' ? 'active' : ''}><GiGiftOfKnowledge /></a>
       <a href="#ia" onClick={()=>setActiveNav('#ia')} className={activeNav==='#ia' ? 'active' : ''}><SiProbot/></a>
       {/* <a href="#contact" onClick={()=>setActiveNav('#contact')} className={activeNav==='#contact' ? 'active' : ''}><AiOutlineContacts/></a> */}
     </nav>

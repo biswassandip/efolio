@@ -36,46 +36,22 @@ const MachineLearning = () => {
 
         <div className="container mlmodule__container">    
           <p>
-            Machine Learning, a dynamic field within Artificial Intelligence, serves as the backbone of intelligent systems.
-            It empowers these systems to learn from data, adapt to new information, and improve their performance over time.
-            In the context of this learning journey, the Machine Learning module emerged as a pivotal gateway to unravel the
-            intricacies of data exploration, inference, and the seamless integration of these concepts into the broader landscape
-            of Artificial Intelligence.
-            <br/>
-            <br/>
-            Delving into the specifics of the module, it embarked on an enlightening exploration of data, fostering a profound
-            comprehension of how information can be extracted and insights can be gleaned. This foundational understanding then
-            paved the way for the implementation of Neural Networks, a cornerstone of modern AI. Equipped with this knowledge,
-            we seamlessly transitioned into the domain of data handling, mastering the art of managing data samples to drive
-            meaningful outcomes.
+          Machine Learning, a dynamic field within Artificial Intelligence, is the backbone of intelligent systems. It empowers these systems to learn from data, adapt to new information, and improve their performance over time. In this learning journey, the Machine Learning module emerged as a pivotal gateway to unravel the intricacies of data exploration, inference, and the seamless integration of these concepts into the broader landscape of Artificial Intelligence.
+          <br />
+          <br/>
+          Delving into the specifics of the module, it embarked on an enlightening exploration of data, fostering a profound comprehension of how information can be extracted and insights can be gleaned. This foundational understanding paved the way for implementing Neural Networks, a cornerstone of modern AI. Equipped with this knowledge, we seamlessly transitioned into the domain of data handling, mastering the art of managing data samples to drive meaningful outcomes.
           </p>
           <p>
-            One of the module's crowning achievements was demystifying the enigma of object recognition. Through meticulous
-            study and hands-on experience, we unveiled the underlying principles governing this process, enabling us to not
-            only classify objects but also delve into more advanced realms of object detection. This was a pivotal step in
-            unraveling the complexity of how machines perceive and interact with the world around them.
-            <br/>
-            <br/>
-            As the learning journey progressed, the module introduced the concept of collaborative learning through team assignments.
-            This dimension added an extra layer of challenge, fostering proficiency in teamwork, efficient meeting structures,
-            comprehensive note-taking, task execution, and critical performance reviews. Notably, a captivating project emerged,
-            centered around conducting a strategic business analysis of Airbnb's vast dataset. Our mission was to devise optimal
-            pricing strategies for Airbnb room listings, based on specific geographical considerations. This endeavor required us to
-            navigate through Python's exploratory data analysis libraries and skillfully set up Jupyter notebooks.
+          One of the module's crowning achievements was demystifying the enigma of object recognition. Through meticulous study and hands-on experience, we unveiled the underlying principles governing this process, enabling us to classify objects and delve into more advanced realms of object detection. This was a pivotal step in unravelling the complexity of how machines perceive and interact with the world around them.
+          <br />
+          <br/>
+          As the learning journey progressed, the module introduced the concept of collaborative learning through team assignments. This dimension added an extra layer of challenge, fostering proficiency in teamwork, efficient meeting structures, comprehensive note-taking, task execution, and critical performance reviews. Notably, a captivating project emerged, centred around conducting a strategic business analysis of Airbnb's vast dataset. Our mission was to devise optimal pricing strategies for Airbnb room listings based on specific geographical considerations. This endeavour required us to navigate Python's exploratory data analysis libraries and skillfully set up Jupyter notebooks.
           </p>
           <p>
-            Amidst this immersive experience, the narrative took an exciting twist with the emergence of Artificial Neural Networks (ANNs).
-            This segment offered a comprehensive understanding of ANNs, their pivotal role in driving the ongoing industrial revolution,
-            and their transformative impact on AI. I acquired a profound grasp of applying ANN techniques, delving into the meticulous
-            design and definition of ANN components. This experience unveiled the multifaceted functions that underpin ANNs' effectiveness,
-            fostering a holistic comprehension of their potential in shaping the future of Artificial Intelligence.
-            <br/>
-            <br />
-            In the contemporary landscape, Machine Learning stands as the driving force behind a multitude of cutting-edge technologies
-            and applications that have become ubiquitous in our daily lives. Take, for instance, the realm of natural language processing,
-            where advanced Machine Learning models enable chatbots and virtual assistants to comprehend and respond to human language nuances
-            with astounding accuracy. These AI-powered companions, found in smartphones and smart home devices, seamlessly integrate into our
-            routines, making tasks more efficient and engaging.
+          Amidst this immersive experience, the narrative took an exciting twist with the emergence of Artificial Neural Networks (ANNs). This segment offered a comprehensive understanding of ANNs, their pivotal role in driving the ongoing industrial revolution, and their transformative impact on AI. I acquired a profound grasp of applying ANN techniques, delving into the meticulous design and definition of ANN components. This experience unveiled the multifaceted functions that underpin ANNs' effectiveness, fostering a holistic comprehension of their potential in shaping the future of Artificial Intelligence.
+          <br/>
+          <br />
+          In the contemporary landscape, Machine Learning is the driving force behind many cutting-edge technologies and applications that have become ubiquitous daily. Take, for instance, the realm of natural language processing, where advanced Machine Learning models enable chatbots and virtual assistants to comprehend and respond to human language nuances with astounding accuracy. These AI-powered companions in smartphones and smart home devices seamlessly integrate into our routines, making tasks more efficient and engaging.
           </p>
 
           <div className="mlmodule__LO">

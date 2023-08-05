@@ -31,41 +31,25 @@ const NumericalAnalysis = () => {
         <div className="container nmodule__container">
           
           <p>
-            Numerical analysis plays a crucial role in the realm of Artificial Intelligence (AI), serving as the bedrock
-            upon which AI algorithms and models are built and refined. It empowers AI practitioners to extract meaningful
-            insights from data, make informed decisions, and create predictive and prescriptive models. This module delves
-            into the intersection of numerical analysis and AI, shedding light on how mathematical techniques are harnessed
-            to enhance the capabilities of AI systems.
-            <br />
-            <br />
-            This module not only covers the foundational aspects of numerical analysis but also delves into its practical
-            applications within AI. From statistical analysis to hypothesis testing, from descriptive summaries to complex
-            regression models, the module equips learners with the tools to harness the power of data in the AI landscape.
+          Numerical analysis plays a crucial role in Artificial Intelligence (AI), serving as the bedrock upon which AI algorithms and models are built and refined. It empowers AI practitioners to extract meaningful insights from data, make informed decisions, and create predictive and prescriptive models. This module delves into the intersection of numerical analysis and AI, shedding light on how mathematical techniques are harnessed to enhance the capabilities of AI systems.
+          <br />
+          <br />
+          This module covers the foundational aspects of numerical analysis and delves into its practical applications within AI. From statistical analysis to hypothesis testing, from descriptive summaries to complex regression models, the module equips learners with the tools to harness the power of data in the AI landscape.
           </p>
           <p>
-            The mathematics behind all the analytical work is covered within this module. It elaborates about the statistical
-            analysis, the tests, and the inferences that can be made and applied to gather information about a population from
-            samples.
-            <br />
-            <br />
-            It builds the basis of Descriptive Statistical Analysis, Inferential Statistics to Regression Analysis. Moreover,
-            the application of chi-, f- or t-tests and how to determine the results from sample datasets gets a better understanding
-            for future analytical applications.
-            <br />
-            <br />
-            The understanding was revealed when running a statistical analysis using the UK alcohol use (2011) dataset. It called for
-            learning R, Python deeper and how these can be run using the RStudio.
+          The mathematics behind all the analytical work is covered in this module. It elaborates on the statistical analysis, the tests, and the inferences that can be made and applied to gather information about a population from samples.
+          <br />
+          <br />
+          It builds the basis of Descriptive Statistical Analysis, Inferential Statistics to Regression Analysis. Moreover, the application of chi-, f- or t-tests and how to determine the results from sample datasets gives a better understanding for future analytical applications.
+          <br />
+          <br />
+          The understanding was revealed when running a statistical analysis using the UK alcohol use (2011) dataset. It called for learning R, Python deeper and how these can be run using the RStudio.
           </p>
           <p>
-            In the rapidly evolving landscape of Artificial Intelligence, numerical analysis stands as a steadfast pillar, enabling AI
-            professionals to navigate the complexities of data-driven decision-making.
-            <br />
-            <br />            
-            This module's comprehensive exploration of numerical analysis not only imparts theoretical knowledge but also emphasizes its
-            tangible application in AI contexts. By mastering these techniques, learners are better equipped to unravel patterns, draw
-            inferences, and unlock the full potential of AI algorithms.
-            As demonstrated through the examination of the UK alcohol use dataset, numerical analysis, when coupled with proficiency in
-            programming languages like R and Python, becomes a formidable tool for shaping the future of AI-driven innovation.
+          In the rapidly evolving landscape of Artificial Intelligence, numerical analysis stands as a steadfast pillar, enabling AI professionals to navigate the complexities of data-driven decision-making.
+          <br />
+          <br />            
+            This module's comprehensive exploration of numerical analysis imparts theoretical knowledge and emphasises its tangible application in AI contexts. By mastering these techniques, learners are better equipped to unravel patterns, draw inferences, and unlock the full potential of AI algorithms. As demonstrated through the examination of the UK alcohol use dataset, numerical analysis, when coupled with proficiency in programming languages like R and Python, becomes a formidable tool for shaping the future of AI-driven innovation.
           </p>
 
           <div className="nmodule__LO">

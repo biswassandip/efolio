@@ -19,7 +19,8 @@ const CTA = () => {
           <a href="#nmodule" className='btn btn-primary'><FaSortNumericDown/> Numerical Analysis</a>  
           <a href="#mlmodule" className='btn btn-primary'><VscServerProcess/> Machine Learning</a>  
           <a href="#nlp" className='btn btn-primary'><GiGiftOfKnowledge /> KR&R</a>  
-          <a href="#ia" className='btn btn-primary'><SiProbot/> Intelli-Agents</a>          
+          <a href="#ia" className='btn btn-primary'><SiProbot /> Intelli-Agents</a>        
+        
           {/* <a href="#contact" className='btn btn-primary'><AiOutlineContacts/> <br/>Contact</a>         */}
         </div>      
         <div className="cta__icons">

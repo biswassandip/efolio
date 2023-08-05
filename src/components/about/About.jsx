@@ -30,28 +30,16 @@ const About = () => {
 
           <div className="about__content">
             <p>
-              With a rich history spanning over 23 years, my professional journey has been characterized by my steadfast
-              leadership in Solutions Architecture, Product Rollouts, and Technology Development across diverse sectors
-              such as Gaming, Retail, e-Commerce, Telecom, and Business Intelligence. Guiding and steering the technological
-              trajectory of organizations has been my forte, aligning their vision with strategic imperatives to pave the way
-              for future growth.
+              Over the past 23 years, I have led solutions architecture, product rollouts, and technology development projects in various industries, including gaming, retail, e-commerce, telecom, and business intelligence. I have a proven track record of guiding organisations through technological transformations and helping them achieve their strategic goals.
             </p>
             <p>            
-              My unwavering passion for problem-solving has fueled my drive to seek solutions and unearth insights.
-              Beyond my technological pursuits, I enjoy as a skilled cook, avid gardener, and devoted dog enthusiast.
-              My heart beats with the rhythm of a programmer, while my mind thrives in the realm of architectural innovation.
-              Noteworthy achievements include spearheading groundbreaking solutions for esteemed entities in the Telecom, Betting (Sports),
-              and Commerce domains.
+              In addition to my professional interests, I enjoy cooking, gardening, and spending time with my dog. I am also a skilled programmer and architect. I am excited to pursue a Master of Science in Artificial Intelligence (AI) at the University of Essex. I am eager to learn more about AI and how it can be used to solve real-world problems.
             </p>
             <p>
-              Currently, I am immersed in a journey of intellectual enrichment as I pursue a Master of Science in Artificial Intelligence
-              (AI) at the prestigious University of Essex. This pursuit is driven by my unwavering dedication to delve deep into the nuances
-              of AI, fostering collaborative knowledge exchange with peers, educators, and industry experts.
+              My skills and experience make me a strong candidate for the M. Sc. AI program. I am also a dedicated and collaborative learner. I am excited to contribute to the program and to learn from my peers and instructors.
               <br />
               <br/>
-              Contained within this e-Portfolio is a comprehensive chronicle of my undertakings as part of the M. Sc. AI program, 
-              encapsulating a diverse array of projects, artifacts, illuminating discussions, and scholarly notes. It stands as a 
-              testament to my unrelenting commitment to pushing the boundaries of knowledge and innovation.              
+              I have attached my e-portfolio, which contains a comprehensive chronicle of my undertakings as part of the M. Sc. AI program. It includes projects, artefacts, discussions, and scholarly notes. My e-portfolio demonstrates my commitment to pushing the boundaries of knowledge and innovation.
             </p>
 
             {/* <div className="about__cards">

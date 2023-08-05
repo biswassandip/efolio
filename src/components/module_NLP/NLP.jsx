@@ -27,23 +27,22 @@ const NLP = () => {
         <div className="container nlp__container">
 
           <p>
-            The Knowledge representation and reasoning (KR&R) module within Artificial Intelligence (AI) was the most challenging and exciting of the modules as it dealt with understanding how and why of the representation of knowledge so that machines can use it to solve problems. The objective of KRR is to build a model that is coupled with accuracy and efficiency.
-            <br/>
-            <br/>
-            The fundamental area of NLP is KR&R. It enables machines to comprehend and process human-like knowledge to facilitate automated intelligent behaviour. KR&R forms the backbone of various NLP tasks, such as question answering, information retrieval, and natural language understanding, by encoding knowledge in a structured format and employing reasoning mechanisms to draw inferences. 
+          The Knowledge representation and reasoning (KR&R) module within Artificial Intelligence (AI) was the most challenging and exciting of the modules as it dealt with understanding how and why of the representation of knowledge so that machines can use it to solve problems. The objective of KRR is to build a model that is coupled with accuracy and efficiency.            
+          <br/>
+          <br/>
+          The fundamental area of NLP is KR&R. It enables machines to comprehend and process human-like knowledge to facilitate automated intelligent behaviour. KR&R forms the backbone of various NLP tasks, such as question answering, information retrieval, and natural language understanding, by encoding knowledge in a structured format and employing reasoning mechanisms to draw inferences.
           </p>
-            <p>            
-            Its all about representation of knowledge in a formal and structured that builds an effective reasoning with supporting knowledge integration.
-            This is acheived with Ontology that plays a crucial role in the building of systems that can understand, interpret, and reason over complex information.
-            <br />
-            <br />            
-            Ontologies have become a part of the W3C standards as a building block to Semantic Technology by providing a required structure to stitch information with other pieces of data on the Web.
+          <p>            
+          It is all about representing knowledge in a formal structure that builds practical reasoning with supporting knowledge integration. This is achieved with Ontology, which plays a crucial role in building systems that can understand, interpret, and reason over complex information.
+          <br />
+          <br />            
+          Ontologies have become a part of the W3C standards as a building block to Semantic Technology by providing a required structure to stitch information with other pieces of data on the Web.
           </p>
-            <p>
-            A case review, “Ontology development for agriculture domain”, on the paper <i>The paper, Malik, N., Sharan, A. & Hijam, D. (2015) March. Ontology development for agriculture domain. In 2015 2nd International Conference on Computing for Sustainable Global Development (INDIACom) (pp. 738-742). IEEE</i> as an exercise revealed how the representation of knowledge can be shared, re-used and build knowledge about the domain, all the descriptions and unstructured pieces of information.
-            <br />
-            <br />
-            Concluded the module by building a prototype using Ontology and Protege for a Library Search System.
+          <p>
+          A case review, “Ontology development for agriculture domain”, on the paper, Malik, N., Sharan, A. & Hijam, D. (2015) March. Ontology development for agriculture domain. In 2015 2nd International Conference on Computing for Sustainable Global Development (INDIACom) (pp. 738-742). IEEE as an exercise revealed how the representation of knowledge can be shared, re-used and built knowledge about the domain, all the descriptions and unstructured pieces of information.
+          <br />
+          <br />
+          Concluded the module by building a prototype using Ontology and Protege for a Library Search System.
           </p>
                       
           <div className="nlp__LO">
