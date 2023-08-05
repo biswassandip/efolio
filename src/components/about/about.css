@@ -7,7 +7,7 @@
 
 .about {
     padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
     background: var(--color-about-background);
 }
 
@@ -26,7 +26,7 @@
 .about__container {
     display: grid;
     grid-template-columns: 20% 80%;
-    gap: 15%;
+    gap: 10%;
     color: var(--color-about-content-text);
     /* grid-template-columns: repeat(1, 1fr); */
 }
@@ -39,6 +39,7 @@
     background: #343F71; */
     display: grid;
     place-items: center;
+    margin-top: 2.5rem;
 }
 
 .about__me-image {
@@ -46,6 +47,8 @@
     overflow: hidden;
     /* transform: rotate(-10deg); */
     transition: var(--transition);
+    margin-top: 10rem;
+    margin-left: 5px;
 }
 
 .me__image {
@@ -145,4 +148,12 @@
         height: 17rem;
         object-fit: cover;
     }
+    
+    .about__me-image {
+        border-radius: 2rem;
+        overflow: hidden;
+        transition: var(--transition);
+        margin-top: 2rem;
+    }
 }
+
