@@ -7,12 +7,12 @@ import './about.css'
 
 import ME from '../../assets/self.png'
 
-const About = () => {
+const About = (props) => {
   return (
     <div id="about"> 
       
 
-      <section id='about' className='about'>
+      <section id='about' className='about' ref={props.refName}>
 
       <div className='separator'>
         <span className="about__header">

@@ -13,11 +13,11 @@ import ARTEFACT4 from '../../artefacts/statistical_analysis_reflection.pdf'
 
 import './nmodule.css'
 
-const NumericalAnalysis = () => {
+const NumericalAnalysis = (props) => {
   return (
     <div id="nmodule">
 
-    <section id='nmodule' className='nmodule'>
+    <section id='nmodule' className='nmodule' ref={props.refName}>
 
       <div className='separator'>
         <span className="nmodule__header">

@@ -12,11 +12,11 @@ import ARTEFACT3 from '../../artefacts/KRR-Individual-Reflection.pdf'
 
 import './nlp.css'
 
-const NLP = () => {
+const NLP = (props) => {
   return (
     <div id="nlp">
       
-      <section id='nlp' className='nlp'>
+      <section id='nlp' className='nlp' ref={props.refName}>
         <div className='separator'>
           <span className="nlp__header">
             <GiGiftOfKnowledge/> Module: Knowledge Representation & Reasoning

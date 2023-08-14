@@ -11,11 +11,11 @@ import ARTEFACT2 from '../../artefacts/AI-Solution.pdf'
 
 import './umodule.css'
 
-const UnderstandingAI = () => {
+const UnderstandingAI = (props) => {
   return (
     <div id="umodule">
       
-      <section id='umodule' className='umodule'>
+      <section id='umodule' className='umodule' ref={props.refName}>
 
         <div className='separator'>
           <span className="umodule__header">

@@ -20,11 +20,11 @@ import ARTEFACT5 from '../../artefacts/Machine_Learning-Individual_Reflection.pd
 
 import './mlmodule.css'
 
-const MachineLearning = () => {
+const MachineLearning = (props) => {
   return (
     <div id="mlmodule">
 
-    <section id='mlmodule' className='mlmodule'>
+    <section id='mlmodule' className='mlmodule' ref={props.refName}>
       <div className='separator'>
         <span className="mlmodule__header">
           <VscServerProcess/> Module: Machine Learning

@@ -12,11 +12,11 @@ import ARTEFACT2 from '../../artefacts/IA-Digital-Forensics-Execution.pdf'
 
 import './ia.css'
 
-const IA = () => {
+const IA = (props) => {
   return (
     <div id="ia">
       
-      <section id='ia' className='ia'>
+      <section id='ia' className='ia' ref={props.refName}>
         <div className='separator'>
           <span className="ia__header">
             <SiProbot/> Module: Intelligent Agents
