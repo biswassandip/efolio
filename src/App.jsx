@@ -15,7 +15,12 @@ import RM from './components/module_research_methods/rm'
 
 import Footer from './components/footer/Footer'
 
-import {Context} from './components/context'
+import { Context } from './components/context'
+
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-XVD8HKVC41";
+ReactGA.initialize(TRACKING_ID);
 
 const App = () => {
   const aboutRef = useRef(null);
