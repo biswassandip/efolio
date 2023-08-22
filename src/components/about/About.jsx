@@ -1,7 +1,7 @@
 import React from 'react'
-import { BsAward } from 'react-icons/bs'
-import { FiUsers } from 'react-icons/fi'
-import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
+// import { BsAward } from 'react-icons/bs'
+// import { FiUsers } from 'react-icons/fi'
+// import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
 import { AiOutlineUser } from 'react-icons/ai'
 import './about.css'
 
