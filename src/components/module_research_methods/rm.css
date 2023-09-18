@@ -32,7 +32,7 @@
 }
 
 /* direct divs inside the container */
-.ia__container > div {
+.rm__container > div {
     /* background: var(--color-bg-variant); */
     padding: 2.4rem 1rem;
     border-radius: 2rem;
@@ -42,19 +42,19 @@
     border-color: var(--color-ia-tile_color);
 }
 
-.ia__container > div:hover {
+.rm__container > div:hover {
     background: transparent;
     border-color: var(--color-white);
     cursor: default;
 }
 
-.ia__container > div h3 {
+.rm__container > div h3 {
     text-align: center;
     margin-bottom: 1rem;
     color: var(--color-ia-header);
 }
 
-.ia__container>div a {
+.rm__container>div a {
     text-decoration: underline;
 }
 
@@ -64,12 +64,12 @@
     row-gap: 1rem;
 }
 
-.ia__details {
+.rm__details {
     display: flex;
     gap: 1rem;
 }
 
-.ia__details-icon {
+.rm__details-icon {
     margin-top: 6px;
     color: var(--color-ia-header);
     font-size: 1.2rem;
@@ -78,28 +78,28 @@
 
 /* tablets media query */
 @media screen and (max-width: 1024px) {
-    .ia__container {
+    .rm__container {
         grid-template-columns: 1fr;
     }
 
-    .ia__container > div {
+    .rm__container > div {
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
     }
 
-    .ia__content {
+    .rm__content {
         padding: 1rem;
     }
 }
 
 /* phones media query */
 @media screen and (max-width: 600px) {
-    .ia__container {
+    .rm__container {
         gap: 1rem;
     }
 
-    .ia__container > div {
+    .rm__container > div {
         width: 100%;
         padding: 2rem 1rem;
     }
