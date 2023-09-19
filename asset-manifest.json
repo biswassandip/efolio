@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/efolio/static/css/main.de73f032.css",
-    "main.js": "/efolio/static/js/main.05ecce36.js",
+    "main.js": "/efolio/static/js/main.ea89205a.js",
     "static/media/AI-Solution.pdf": "/efolio/static/media/AI-Solution.df974382138a9f903d7e.pdf",
     "static/media/Teamwork-Summative_Assessment-NeuralNetworks.pdf": "/efolio/static/media/Teamwork-Summative_Assessment-NeuralNetworks.432db7c5b84ff03b942b.pdf",
     "static/media/Teamwork-Airbnb_Analysis.pdf": "/efolio/static/media/Teamwork-Airbnb_Analysis.0bbcc8a96555be5c1fc5.pdf",
@@ -16,17 +16,17 @@
     "static/media/self.png": "/efolio/static/media/self.c10c981b22b91848b7d3.png",
     "static/media/KRR-Case-Study.pdf": "/efolio/static/media/KRR-Case-Study.65c32d1b983c180708b1.pdf",
     "static/media/Reflective-Ethics_in_computing.pdf": "/efolio/static/media/Reflective-Ethics_in_computing.dfe1ac2fc31013b7666f.pdf",
-    "static/media/Discussion-Case-Dark_UX.pdf": "/efolio/static/media/Discussion-Case-Dark_UX.e305aa904d278dd8b837.pdf",
     "static/media/KRR-Individual-Reflection.pdf": "/efolio/static/media/KRR-Individual-Reflection.dcadacdc9a58887fa0e0.pdf",
+    "static/media/Discussion-Case-Dark_UX.pdf": "/efolio/static/media/Discussion-Case-Dark_UX.18a55cf0310dc8a57344.pdf",
     "static/media/Machine_Learning-Individual_Reflection.pdf": "/efolio/static/media/Machine_Learning-Individual_Reflection.f33f5b589198ef3b7707.pdf",
     "static/media/statistical_analysis_transcript.pdf": "/efolio/static/media/statistical_analysis_transcript.81fa3cdfed14c6bf9021.pdf",
     "static/media/statistical_analysis_script.R": "/efolio/static/media/statistical_analysis_script.9dad83764b4320a2ea71.R",
     "index.html": "/efolio/index.html",
     "main.de73f032.css.map": "/efolio/static/css/main.de73f032.css.map",
-    "main.05ecce36.js.map": "/efolio/static/js/main.05ecce36.js.map"
+    "main.ea89205a.js.map": "/efolio/static/js/main.ea89205a.js.map"
   },
   "entrypoints": [
     "static/css/main.de73f032.css",
-    "static/js/main.05ecce36.js"
+    "static/js/main.ea89205a.js"
   ]
 }
