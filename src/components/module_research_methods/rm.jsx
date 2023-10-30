@@ -2,15 +2,22 @@ import React from 'react'
 
 import { IoMdArrowRoundForward } from 'react-icons/io'
 import { BsFileEarmarkPdfFill } from 'react-icons/bs'
-import { SiProbot } from 'react-icons/si'
-import { AiFillGithub } from 'react-icons/ai'
+// import { SiProbot } from 'react-icons/si'
+// import { AiFillGithub } from 'react-icons/ai'
 import { GiArchiveResearch } from 'react-icons/gi'
+import {GrDocumentZip}  from 'react-icons/gr'
 
 import ARTEFACT1 from '../../artefacts/Discussion-Case-Dark_UX.pdf'
 import ARTEFACT2 from '../../artefacts/Unit1_Reasoning_Quiz.pdf'
 import ARTEFACT3 from '../../artefacts/Reflective-Ethics_in_computing.pdf'
 import ARTEFACT4 from '../../artefacts/Literature-Review_Microservices_in_E-commerce.pdf'
 import ARTEFACT5 from '../../artefacts/Unit-7_Collaborative_Discussion_2.pdf'
+import ARTEFACT6 from '../../artefacts/Unit10_Research_proposal.pdf'
+import ARTEFACT7 from '../../artefacts/Unit10_Research_proposal_Transcript.pdf'
+import ARTEFACT8 from '../../artefacts/Exercises-8-Hypothesis_Testing.pdf'
+import ARTEFACT9 from '../../artefacts/Exercises-8_Summary-Measures.pdf'
+import ARTEFACT10 from '../../artefacts/Exercises-8_xls-Inferential_Statistics.zip'
+import ARTEFACT11 from '../../artefacts/Exercises-9_xls-Analysing_Qualitative_Data.zip'
 
 
 
@@ -162,21 +169,6 @@ const RM = (props) => {
             </div>
           </div>
 
-          {/* <div className="rm__CO">
-            <h3>Discussions</h3>
-            <div className="rm__content">
-
-              <article className='rm__details'>
-                <AiFillGithub className='rm__details-icon'/>
-                <div>
-                  <h4>TBC</h4>
-                </div>
-              </article>
-            
-
-            </div>          
-          </div> */}
-
           <div className="rm__AR">
           <h3>Assignments & Discussions</h3>
             <div className="rm__content">
@@ -221,7 +213,25 @@ const RM = (props) => {
                 <BsFileEarmarkPdfFill className='rm__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT4} target='_blank' rel='noopener noreferrer'>Discussion: Ethical Considerations</a>
+                      <a href={ARTEFACT5} target='_blank' rel='noopener noreferrer'>Discussion: Ethical Considerations</a>
+                  </h4>
+                </div>
+              </article>
+              
+              <article className='rm__details'>
+                <BsFileEarmarkPdfFill className='rm__details-icon'/>
+                <div>
+                  <h4>
+                      <a href={ARTEFACT6} target='_blank' rel='noopener noreferrer'>Research Proposal: Elderly Care & AI</a>
+                  </h4>
+                </div>
+              </article>
+              
+              <article className='rm__details'>
+                <BsFileEarmarkPdfFill className='rm__details-icon'/>
+                <div>
+                  <h4>
+                      <a href={ARTEFACT7} target='_blank' rel='noopener noreferrer'>Research Proposal Transcript</a>
                   </h4>
                 </div>
               </article>
@@ -229,6 +239,48 @@ const RM = (props) => {
             </div>          
           </div>        
 
+          <div className="rm__CO">
+            <h3>Exercises</h3>
+            <div className="rm__content">
+
+              <article className='rm__details'>
+                <BsFileEarmarkPdfFill className='rm__details-icon'/>
+                <div>
+                  <h4>
+                      <a href={ARTEFACT8} target='_blank' rel='noopener noreferrer'>Hypothesis Testing</a>
+                  </h4>
+                </div>
+              </article>
+
+              <article className='rm__details'>
+                <BsFileEarmarkPdfFill className='rm__details-icon'/>
+                <div>
+                  <h4>
+                      <a href={ARTEFACT9} target='_blank' rel='noopener noreferrer'>Summary Measures</a>
+                  </h4>
+                </div>
+              </article>
+              
+              <article className='rm__details'>
+                <GrDocumentZip className='rm__details-icon'/>
+                <div>
+                  <h4>
+                      <a href={ARTEFACT10} target='_blank' rel='noopener noreferrer'>Excel workbooks: Inferential Statistics & Summary Measures</a>
+                  </h4>
+                </div>
+              </article>
+            
+              <article className='rm__details'>
+                <GrDocumentZip className='rm__details-icon'/>
+                <div>
+                  <h4>
+                      <a href={ARTEFACT11} target='_blank' rel='noopener noreferrer'>Excel workbooks: Analysing Qualitative Data</a>
+                  </h4>
+                </div>
+              </article>
+
+            </div>          
+          </div>
           
         </div>
 
