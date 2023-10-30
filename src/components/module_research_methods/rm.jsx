@@ -55,8 +55,8 @@ const RM = (props) => {
             risks and take steps to mitigate them.
             <br />
             <br />
-            The module further enbales in the understanding on a research project that is essential to formulate clear
-            <b>research questions</b>, conduct a comprehensive <b>literature review</b>, and develop a well-structured
+            The module further enbales in the understanding on a research project that is essential to formulate clear &nbsp;
+            <b>research questions</b>, conduct a comprehensive <b>literature review</b>, and develop a well-structured  &nbsp;
             <b>research proposal</b> (Creswell & Creswell, 2017; Boote & Beile,2005; Locke, Silverman, & Spirduso, 2019).            
             <br />
             <br />
