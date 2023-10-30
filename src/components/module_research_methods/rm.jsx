@@ -7,7 +7,10 @@ import { AiFillGithub } from 'react-icons/ai'
 import { GiArchiveResearch } from 'react-icons/gi'
 
 import ARTEFACT1 from '../../artefacts/Discussion-Case-Dark_UX.pdf'
-import ARTEFACT2 from '../../artefacts/Reflective-Ethics_in_computing.pdf'
+import ARTEFACT2 from '../../artefacts/Unit1_Reasoning_Quiz.pdf'
+import ARTEFACT3 from '../../artefacts/Reflective-Ethics_in_computing.pdf'
+import ARTEFACT4 from '../../artefacts/Literature-Review_Microservices_in_E-commerce.pdf'
+import ARTEFACT5 from '../../artefacts/Unit-7_Collaborative_Discussion_2.pdf'
 
 
 
@@ -191,10 +194,38 @@ const RM = (props) => {
                 <BsFileEarmarkPdfFill className='rm__details-icon'/>
                 <div>
                   <h4>
-                      <a href={ARTEFACT2} target='_blank' rel='noopener noreferrer'>Ethics in Computing</a>
+                      <a href={ARTEFACT2} target='_blank' rel='noopener noreferrer'>Reasoning Quiz</a>
                   </h4>
                 </div>
               </article>
+
+              <article className='rm__details'>
+                <BsFileEarmarkPdfFill className='rm__details-icon'/>
+                <div>
+                  <h4>
+                      <a href={ARTEFACT3} target='_blank' rel='noopener noreferrer'>Reflective: Ethics in Computing</a>
+                  </h4>
+                </div>
+              </article>
+
+              <article className='rm__details'>
+                <BsFileEarmarkPdfFill className='rm__details-icon'/>
+                <div>
+                  <h4>
+                      <a href={ARTEFACT4} target='_blank' rel='noopener noreferrer'>Literature Review: Microservices in E-commerce</a>
+                  </h4>
+                </div>
+              </article>
+
+              <article className='rm__details'>
+                <BsFileEarmarkPdfFill className='rm__details-icon'/>
+                <div>
+                  <h4>
+                      <a href={ARTEFACT4} target='_blank' rel='noopener noreferrer'>Discussion: Ethical Considerations</a>
+                  </h4>
+                </div>
+              </article>
+              
             </div>          
           </div>        
 
