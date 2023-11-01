@@ -11,13 +11,14 @@ const Footer = () => {
       <div className='separator'/>
 
         <ul className="permalinks">
-          <li><a href="#">Home</a></li>
+          <li><a href="#">Home</a></li> 
           <li><a href="#about">About Me</a></li>
           <li><a href="#umodule">Understanding AI</a></li>
           <li><a href="#nmodule">Numerical Analysis</a></li>
           <li><a href="#mlmodule">Machine Learning</a></li>
           <li><a href="#nlp">KR&R</a></li>
           <li><a href="#ia">Intelli-Agents</a></li>
+          <li><a href="#rm">Research Methods</a></li>
         </ul>
 
         <div className="footer__socials">
