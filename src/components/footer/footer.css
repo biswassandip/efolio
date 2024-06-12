@@ -1,8 +1,8 @@
 footer{
-    padding: 3rem o;
+    padding: 1rem o;
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 7rem;
+    margin-top: 1rem;
 }
 
 .footer__logo{
@@ -42,4 +42,12 @@ footer{
     background: transparent;
     color: var(--color-primary);
     border-color: var(--color-bg);
+}
+
+.anchor{
+    color: var(--color-white);
+}
+
+.anchor:hover {
+    color: var(--color-btn);
 }

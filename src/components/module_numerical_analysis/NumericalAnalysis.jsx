@@ -23,7 +23,7 @@ const NumericalAnalysis = (props) => {
         <span className="nmodule__header">
           <FaSortNumericDown/> Module: Numerical Analysis
           </span>
-          <h5 className='nmodule__subheader'>(Module started on June 2022)</h5>
+          <h5 className='nmodule__subheader'>(June 2022 - August 2022)</h5>
       </div>
 
         <br/>

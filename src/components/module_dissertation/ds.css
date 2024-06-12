@@ -1,38 +1,38 @@
 :root {
-    --color-ia-background: #d0acaf;
-    --color-ia-header: #46080d;
-    --color-ia-content-text: #46080d;
-    --color-ia-tile_color: #000000;
+    --color-ds-background: #d1f2c4;
+    --color-ds-header: #46080d;
+    --color-ds-content-text: #46080d;
+    --color-ds-tile_color: #000000;
 }
 
-.ia {
+.ds {
     padding-top: 2rem;
     padding-bottom: 3rem;
-    background: var(--color-ia-background);
+    background: var(--color-ds-background);
 }
 
-.ia__container {
+.ds__container {
     display: grid;
     /* grid-template-columns: 1fr 1fr; */
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    color: var(--color-ia-content-text);
+    color: var(--color-ds-content-text);
 }
 
-.ia__header {
+.ds__header {
     background-color: transparent;
-    color: var(--color-ia-header);
+    color: var(--color-ds-header);
     font-size: 1.8rem;
 }
 
-.ia__subheader {
+.ds__subheader {
     background-color: transparent;
-    color: var(--color-ia-header);
+    color: var(--color-ds-header);
     font-size: 0.8rem;
 }
 
 /* direct divs inside the container */
-.ia__container > div {
+.ds__container > div {
     /* background: var(--color-bg-variant); */
     padding: 2.4rem 1rem;
     border-radius: 2rem;
@@ -42,20 +42,20 @@
     border-color: var(--color-ia-tile_color);
 }
 
-.ia__container > div:hover {
+.ds__container > div:hover {
     background: transparent;
     border-color: var(--color-white);
     cursor: default;
 }
 
-.ia__container > div h3 {
+.ds__container > div h3 {
     text-align: center;
     margin-bottom: 1rem;
     color: var(--color-ia-header);
 }
 
-.ia__container>div a {
-    text-decoration: none;
+.ds__container>div a {
+    text-decoration: underline;
 }
 
 .ia__content {
@@ -64,12 +64,12 @@
     row-gap: 1rem;
 }
 
-.ia__details {
+.ds__details {
     display: flex;
     gap: 1rem;
 }
 
-.ia__details-icon {
+.ds__details-icon {
     margin-top: 6px;
     color: var(--color-ia-header);
     font-size: 1.2rem;
@@ -78,28 +78,28 @@
 
 /* tablets media query */
 @media screen and (max-width: 1024px) {
-    .ia__container {
+    .ds__container {
         grid-template-columns: 1fr;
     }
 
-    .ia__container > div {
+    .ds__container > div {
         width: 80%;
         padding: 2rem;
         margin: 0 auto;
     }
 
-    .ia__content {
+    .ds__content {
         padding: 1rem;
     }
 }
 
 /* phones media query */
 @media screen and (max-width: 600px) {
-    .ia__container {
+    .ds__container {
         gap: 1rem;
     }
 
-    .ia__container > div {
+    .ds__container > div {
         width: 100%;
         padding: 2rem 1rem;
     }

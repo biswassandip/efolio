@@ -32,7 +32,7 @@ const RM = (props) => {
           <span className="rm__header">
             <GiArchiveResearch/> Module: Research Methods & Professional Practice
           </span>
-          <h5 className='rm__subheader'>(Module started on August 2023)</h5>
+          <h5 className='rm__subheader'>(August 2023 - November 2023)</h5>
         </div>
         <br/>
         <div className="container rm__container">

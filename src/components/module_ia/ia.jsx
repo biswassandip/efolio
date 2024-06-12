@@ -21,7 +21,7 @@ const IA = (props) => {
           <span className="ia__header">
             <SiProbot/> Module: Intelligent Agents
           </span>
-          <h5 className='ia__subheader'>(Module started on May 2023)</h5>
+          <h5 className='ia__subheader'>(May 2023 - July 2023)</h5>
         </div>
         <br/>
         <div className="container ia__container">

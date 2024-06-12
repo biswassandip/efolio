@@ -55,7 +55,7 @@
 }
 
 .umodule__container>div a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .umodule__content {

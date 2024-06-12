@@ -21,7 +21,7 @@ const UnderstandingAI = (props) => {
           <span className="umodule__header">
             <MdWbIncandescent/> Module: Understanding AI
           </span>
-          <h5 className='umodule__subheader'>(Module started on March 2022)</h5>
+          <h5 className='umodule__subheader'>(March 2022 - May 2022)</h5>
         </div>
 
 

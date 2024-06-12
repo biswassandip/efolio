@@ -11,6 +11,7 @@ import MachineLearning from './components/module_machine_learning/MachineLearnin
 import NLP from './components/module_NLP/NLP'
 import IA from './components/module_ia/ia'
 import RM from './components/module_research_methods/rm'
+import DS from './components/module_dissertation/ds'
 
 
 import Footer from './components/footer/Footer'
@@ -31,6 +32,7 @@ const App = () => {
   const nlpRef = useRef(null);
   const iaRef = useRef(null);
   const rmRef = useRef(null);
+  const dsRef = useRef(null);
 
   
   const [sectionValue, setSectionValue] = useState('#');
@@ -52,7 +54,8 @@ const App = () => {
       machineLearningRef.current &&
       nlpRef.current &&
       iaRef.current &&
-      rmRef.current
+      rmRef.current &&
+      dsRef.current 
     ) {
       const options = {
         threshold: 0.2,
@@ -74,9 +77,10 @@ const App = () => {
       observer.observe(nlpRef.current)
       observer.observe(iaRef.current)
       observer.observe(rmRef.current)
+      observer.observe(dsRef.current)
     }
     return () => observer.disconnect()
-  }, [aboutRef, understandingAIRef, numericalAnalysisRef, machineLearningRef, nlpRef, iaRef, rmRef])
+  }, [aboutRef, understandingAIRef, numericalAnalysisRef, machineLearningRef, nlpRef, iaRef, rmRef, dsRef])
 
 
 
@@ -92,6 +96,7 @@ const App = () => {
         <NLP refName={nlpRef} />
         <IA refName={iaRef} />
         <RM refName={rmRef} />
+        <DS refName={dsRef} />
         <Footer />
       </Context.Provider>
     </>

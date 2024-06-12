@@ -29,7 +29,7 @@ const MachineLearning = (props) => {
         <span className="mlmodule__header">
           <VscServerProcess/> Module: Machine Learning
           </span>
-          <h5 className='mlmodule__subheader'>(Module started on September 2022)</h5>
+          <h5 className='mlmodule__subheader'>(September 2022 - December 2022)</h5>
       </div>
 
         <br/>

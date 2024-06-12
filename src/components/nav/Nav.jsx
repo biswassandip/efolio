@@ -6,6 +6,8 @@ import { MdWbIncandescent } from 'react-icons/md'
 import { VscServerProcess } from 'react-icons/vsc'
 import { GiGiftOfKnowledge,GiArchiveResearch } from 'react-icons/gi'
 import { SiProbot } from 'react-icons/si'
+import { RiDatabaseLine } from "react-icons/ri";
+
 
 import './nav.css'
 
@@ -27,6 +29,7 @@ const Nav = (props) => {
       <a href="#nlp" onClick={() => setActiveNav('#nlp')} className={activeNav === '#nlp' || sectionValue==='nlp'  ? 'active' : ''}><GiGiftOfKnowledge /></a>
       <a href="#ia" onClick={() => setActiveNav('#ia')} className={activeNav === '#ia' || sectionValue === 'ia' ? 'active' : ''}><SiProbot /></a>
       <a href="#rm" onClick={() => setActiveNav('#rm')} className={activeNav === '#rm' || sectionValue==='rm' ? 'active' : ''}><GiArchiveResearch /></a>
+      <a href="#ds" onClick={() => setActiveNav('#ds')} className={activeNav === '#ds' || sectionValue==='ds' ? 'active' : ''}><RiDatabaseLine /></a>
     </nav>
   )
 }

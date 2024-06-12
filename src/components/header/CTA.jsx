@@ -6,6 +6,8 @@ import { VscServerProcess } from 'react-icons/vsc'
 import {AiOutlineUser, AiOutlineContacts } from 'react-icons/ai'
 import { GiGiftOfKnowledge, GiArchiveResearch } from 'react-icons/gi'
 import { SiProbot } from 'react-icons/si'
+import { RiDatabaseLine } from "react-icons/ri";
+
 import './header.css'
 
 const CTA = () => {
@@ -21,6 +23,7 @@ const CTA = () => {
           <a href="#nlp" className='btn btn-primary'><GiGiftOfKnowledge /> KR&R</a>  
           <a href="#ia" className='btn btn-primary'><SiProbot /> Intelli-Agents</a>
           <a href="#rm" className='btn btn-primary'><GiArchiveResearch /> Research Methods</a>
+          <a href="#ds" className='btn btn-primary'><RiDatabaseLine /> Dissertation</a>
         
           {/* <a href="#contact" className='btn btn-primary'><AiOutlineContacts/> <br/>Contact</a>         */}
         </div>      
@@ -33,6 +36,7 @@ const CTA = () => {
           <a href="#nlp" className='btn btn-primary'><GiGiftOfKnowledge/></a>
           <a href="#ia" className='btn btn-primary'><SiProbot /></a>
           <a href="#rm" className='btn btn-primary'><GiArchiveResearch/></a>
+          <a href="#ds" className='btn btn-primary'><RiDatabaseLine/></a>
           <a href="#contact" className='btn btn-primary'><AiOutlineContacts/></a>
         </div>      
     </div>

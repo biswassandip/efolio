@@ -76,7 +76,7 @@
 }
 
 .mlmodule__container>div a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .mlmodule__content {

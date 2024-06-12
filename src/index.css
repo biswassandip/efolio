@@ -22,6 +22,7 @@
     --color-light: #3C1874;
 
     --color-btn: #FFDF6C;
+    --color-anchor: #0cf168;
 
     --transition: all 400ms ease;
 
@@ -87,7 +88,8 @@ section>h2 {
 }
 
 a {
-    color: var(--color-primary);
+    /* color: var(--color-anchor); */
+    text-decoration: none;
     transition: var(--transition);
 }
 
@@ -114,7 +116,7 @@ a:hover {
 
 .btn-primary {
     color: var(--color-btn);
-    font-size: 0.8rem;
+    font-size: 0.77rem;
 }
 
 img {

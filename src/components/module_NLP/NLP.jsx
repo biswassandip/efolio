@@ -21,7 +21,7 @@ const NLP = (props) => {
           <span className="nlp__header">
             <GiGiftOfKnowledge/> Module: Knowledge Representation & Reasoning
           </span>
-          <h5 className='nlp__subheader'>(Module started on January 2023)</h5>
+          <h5 className='nlp__subheader'>(January 2023 - April 2023)</h5>
         </div>
         <br/>
         <div className="container nlp__container">

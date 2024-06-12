@@ -48,6 +48,14 @@ header {
     background: var(--color-primary);
 }
 
+.header__socials a {
+    color: var(--color-white);
+}
+
+.header__socials a:hover {
+    color: var(--color-btn);
+}
+
 /* scroll down */
 .scroll__down {
     position: absolute;
