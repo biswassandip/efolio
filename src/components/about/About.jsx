@@ -30,7 +30,7 @@ const About = (props) => {
 
           <div className="about__content">
             <p>
-              Over the past 23 years, I have led solutions architecture, product rollouts, and technology development projects in various industries, including gaming, retail, e-commerce, telecom, and business intelligence. I have a proven track record of guiding organisations through technological transformations and helping them achieve their strategic goals.
+              Over the past 25+ years, I have led solutions architecture, product rollouts, and technology development projects in various industries, including gaming, retail, e-commerce, telecom, and business intelligence. I have a proven track record of guiding organisations through technological transformations and helping them achieve their strategic goals.
             </p>
             <p>            
               In addition to my professional interests, I enjoy cooking, gardening, and spending time with my dog. I am also a skilled programmer and architect. I am excited to pursue a Master of Science in Artificial Intelligence (AI) at the University of Essex. I am eager to learn more about AI and how it can be used to solve real-world problems.
